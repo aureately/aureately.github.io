@@ -28,6 +28,8 @@ header {
   display: inline-block;
   text-align: center;
   background-color: #ffffff; }
+  header a img {
+    border: 0; }
 
 #logo {
   max-width: 100%;
@@ -72,6 +74,11 @@ h3 {
   text-align: left;
   margin: auto;
   font-family: 'Lora', Georgia, serif; }
+
+h4 {
+  font-size: 1em;
+  height: 1.3em;
+  border-bottom: 1px #e0e0e0 solid; }
 
 ul {
   list-style-type: none;
