@@ -7,11 +7,13 @@ body {
   line-height: 1.5em;
   overflow-x: hidden; }
 
-p a:link {
+a:link {
   color: #ca9b0d; }
-p a:hover {
+
+a:hover {
   color: #a47b00; }
-p a:visited {
+
+a:visited {
   color: #ca9b0d; }
 
 b {
@@ -29,6 +31,12 @@ header {
   -webkit-transform: translateZ(0); }
   header a img {
     border: 0; }
+  header a:link {
+    color: #ca9b0d; }
+  header a:hover {
+    color: #a47b00; }
+  header a:visited {
+    color: #ca9b0d; }
 
 #logo {
   max-width: 100%;

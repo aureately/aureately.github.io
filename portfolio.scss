@@ -9,17 +9,16 @@ body {
 	overflow-x: hidden;
 }
 
-p {
-	a:link {
-		color: #ca9b0d;
-	}
-	a:hover {
-		color: #a47b00;
-	}
-	a:visited {
-		color: #ca9b0d;
-	}
+a:link {
+	color: #ca9b0d;
 }
+a:hover {
+	color: #a47b00;
+}
+a:visited {
+	color: #ca9b0d;
+}
+
 
 b {
 	font-weight: 700;
@@ -39,6 +38,15 @@ header {
 	-webkit-transform: translateZ(0);
 	a img {
 		border: 0;
+	}
+	a:link {
+	color: #ca9b0d;
+	}
+	a:hover {
+			color: #a47b00;
+	}
+	a:visited {
+		color: #ca9b0d;
 	}
 }
 
