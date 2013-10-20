@@ -16,8 +16,8 @@ a {
 		color: #ca9b0d;
 	}
 }
-.selected {
-	text-decoration: underline;
+.select {
+	color: #b18500;
 }
 
 b {
@@ -34,6 +34,7 @@ header {
 	display: inline-block;
 	text-align: center;
 	background-color: #ffffff;
+	-webkit-transform: translateZ(0);
 	a img {
 		border: 0;
 	}
@@ -101,7 +102,7 @@ h3 {
 
 h4 {
 	font-size: 1em;
-	height: 1.3em;
+	height: 1.7em;
 	border-bottom: 1px #e0e0e0 solid;
 }
 
@@ -130,6 +131,14 @@ ul {
 	p {
 		margin-bottom: 1.5em;
 	}
+}
+
+.bigtext {
+	font-size: 1.5em;
+	line-height: 1.4em;
+	font-weight: 400;
+	font-style: italic;
+	color: #b18500;
 }
 
 .space {
