@@ -9,14 +9,14 @@ body {
 	overflow-x: hidden;
 }
 
-a {
+a:link {
 	color: #ca9b0d;
-	&:hover {
-		color: #a47b00;
-	}
-	&:visited {
-		color: #ca9b0d;
-	}
+}
+a:hover {
+	color: #a47b00;
+}
+a:visited {
+	color: #ca9b0d;
 }
 
 b {

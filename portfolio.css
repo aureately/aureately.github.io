@@ -7,12 +7,14 @@ body {
   line-height: 1.5em;
   overflow-x: hidden; }
 
-a {
+a:link {
   color: #ca9b0d; }
-  a:hover {
-    color: #a47b00; }
-  a:visited {
-    color: #ca9b0d; }
+
+a:hover {
+  color: #a47b00; }
+
+a:visited {
+  color: #ca9b0d; }
 
 b {
   font-weight: 700; }
