@@ -7,13 +7,11 @@ body {
   line-height: 1.5em;
   overflow-x: hidden; }
 
-a:link {
+p a:link {
   color: #ca9b0d; }
-
-a:hover {
+p a:hover {
   color: #a47b00; }
-
-a:visited {
+p a:visited {
   color: #ca9b0d; }
 
 b {

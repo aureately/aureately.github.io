@@ -9,19 +9,22 @@ body {
 	overflow-x: hidden;
 }
 
-a:link {
-	color: #ca9b0d;
-}
-a:hover {
-	color: #a47b00;
-}
-a:visited {
-	color: #ca9b0d;
+p {
+	a:link {
+		color: #ca9b0d;
+	}
+	a:hover {
+		color: #a47b00;
+	}
+	a:visited {
+		color: #ca9b0d;
+	}
 }
 
 b {
 	font-weight: 700;
 }
+
 
 .thumb {
 	border: 1px #e7e3d5 solid;
