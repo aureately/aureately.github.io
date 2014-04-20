@@ -2,11 +2,11 @@
 	
 /*Homepage*/
 	.headermain {
-		height: 6.5em;
+		height: 8.2em;
 	}
 
 	#logo {
-		margin-top: 2.85em;
+		margin-top: 3.6em;
 	}
 
 	#logo img {
@@ -18,23 +18,32 @@
 	}
 
 	h2 {
-		width: 14em;
-		display: block;
-		font-size: 0.9em;
-		clear: both;
-		margin: {
-			top: -0.5em;
-			right: 0;
-			left: 0.15em;
-			bottom: 0;
-		}
+		display: none;
 	}
 	.container {
 		width: 80%;
 	}
 
 	.mainnav {
-		display: none;
+		clear: both;
+		float: left;
+		width: 100%;
+		margin: {
+			left: 0;
+			right: 0;
+			top: -0.3em;
+		}
+		text-align: left;
+		font-size: 0.9em;
+		ul {
+			margin: 0;
+			}
+		li {
+			float: left;
+			margin-left: 0.2em;
+			padding-left: 0;
+			padding-right: 1.8em;
+		}
 	}
 
 	#design-gallery {
@@ -200,7 +209,7 @@
 	
 /*Homepage*/
 	.headermain {
-		height: 8em;
+		height: 9em;
 	}
 
 	#logo img {
@@ -225,7 +234,10 @@
 	}
 
 	.mainnav {
-		display: none;
+		padding: 0;
+		width: auto;
+		font-size: 1em;
+		margin-top: -2em;
 	}
 
 	#design-gallery, #works {
@@ -369,7 +381,15 @@
 	}
 
 	.mainnav {
-		display: none;
+		padding: 0;
+		width: auto;
+		font-size: 1em;
+		margin-top: 4em;
+	}
+	h2 {
+		width: 12em;
+		font-size: 1em;
+		margin-top: 4em;
 	}
 	#design-gallery, #works {
 		width: 92%;
@@ -495,7 +515,7 @@
 			width: 40%;
 		}
 		p {
-			width: 53%;
+			width: 52.5%;
 			float: left;
 			margin-right: 0;
 		}
