@@ -9,6 +9,7 @@
 		<meta name="author" content="Trisha Tobias">
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
 		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -16,6 +17,9 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/trish.js"></script>
 
+		<!--Lightbox-->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
 		<!--Favicon-->
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
@@ -35,10 +39,6 @@
 	</head>
 <body>
 
-
-
-
-
 	<header class="headermain">
 		<div class="container">
 			<div id="logo">
@@ -53,6 +53,7 @@
 					<li><a href="/about">about</a></li>
 				</ul>
 			</nav>
+			</nav>
 		</div>
 	</header>
 
@@ -61,83 +62,35 @@
 		<!-- Row One -->
 
 		<article class="work">
-		<a href="muttermuseum"><img src="assets/thumbs/mutter_2x.png" class="thumb"></a>
-		<h4><a href="muttermuseum">The Mutter Museum</a></h4>
-		<p>Identity</p>
+		<a href="assets/process/creatures.png" data-lightbox="image-1" data-title="Before deciding on the current piece, I had two other ideas for the coffee packaging: One is a simple bottle with the creatures rendered in a very ornate style, and the other is the creature hidden in its surroundings and only appearing as the coffee bottle is emptied."><img src="assets/process/creatures_thumb.png" class="thumb"></a>
 		</article>
 
 		<article class="work">
-		<a href="instacycle"><img src="assets/thumbs/instacycle_2x.png" class="thumb"></a>
-		<h4><a href="instacycle">Instacycle</a></h4>
-		<p>Mobile Application</p>
-
+		<a href="assets/process/mutter.png" data-lightbox="image-1" data-title="Mütter Museum Process: Logo thumbs, form and color variations, ideas for promotional pieces"><img src="assets/process/mutter_thumb.png" class="thumb"></a>
 		</article>
-		<article class="work">
-		<a href="themuse"><img src="assets/thumbs/themuse2_2x.png" class="thumb"></a>
-		<h4><a href="themuse">The Muse</a></h4>
-		<p>Website</p>
-		</article>
-
 
 		<article class="work">
-		<a href="oduart"><img src="assets/thumbs/artodu_2x.png" class="thumb"></a>
-		<h4><a href="/oduart">Art of ODU</a></h4>
-		<p>Identity</p>
+		<a href="assets/process/dehackathon.png" data-lightbox="image-1" data-title="Too much fun at the Dominion Enterprises Hackathon with the ODU team."><img src="assets/process/dehackathon_thumb.png" class="thumb"></a>
 		</article>
 
+		<article class="work">
+		<a href="assets/process/vahackathon.png" data-lightbox="image-1" data-title="Winging it at HackVirginia."><img src="assets/process/vahackathon_thumb.png" class="thumb"></a>
+		</article>
 
+		<article class="work">
+		<a href="assets/process/artsdistrict.png" data-lightbox="image-1" data-title="Logo ideas, wireframes and notes for Art District website pitch. Working with the designers and developers at Code for America's National Day of Civic Hacking."><img src="assets/process/artsdistrict_thumb.png" class="thumb"></a>
+		</article>
+
+		<article class="work">
+		<a href="assets/process/civilwarland.png" data-lightbox="image-1" data-title="The making of the CivilWarLand book cover: mini paper sculptures and a tiny photoshoot."><img src="assets/process/civilwarland_thumb.png" class="thumb"></a>
+		</article>
 
 		<!-- Row Two -->
-
-		<article class="work">
-		<a href="/creatures"><img src="assets/thumbs/creatures_2x.png" class="thumb"></a>
-		<h4><a href="/creatures">Creatures of Habit</a></h4>
-		<p>Packaging</p>
-		</article>
-
-		<article class="work">
-		<a href="/civilwarland"><img src="assets/thumbs/civil_2x.png" class="thumb"></a>
-		<h4><a href="/civilwarland">CivilWarLand</a></h4>
-		<p>Book Cover</p>
-		</article>
-
-		<article class="work">
-		<a href="/roomtoread"><img src="assets/thumbs/roomtoread_2x.png" class="thumb"></a>
-		<h4><a href="/roomtoread">Bridging the Gap</a></h4>
-		<p>Poster</p>
-		</article>
-
-		<article class="work">
-		<a href="/curious"><img src="assets/thumbs/curious2_2x.png" class="thumb"></a>
-		<h4><a href="/curious">Curious</a></h4>
-		<p>Poster</p>
-		</article>
-
-
-
-		<!-- Row Three -->
-
-		<article class="work">
-		<a href="/unplayedpiano"><img src="assets/thumbs/unplayedpiano2_2x.png" class="thumb"></a>
-		<h4><a href="/unplayedpiano">Unplayed Piano</a></h4>
-		<p>Book</p>
-		</article>
-
-		<article class="work">
-		<a href="/drinksdowntown"><img src="assets/thumbs/drinksdowntown_2x.png" class="thumb"></a>
-		<h4><a href="/drinksdowntown">Drinks Downtown</a></h4>
-		<p>Logo</p>
-		</article>
-
-		<article class="work">
-		<a href="/coneyisland"><img src="assets/thumbs/coneyisland_2x.png" class="thumb"></a>
-		<h4><a href="/coneyisland">Coney Island</a></h4>
-		<p>Poster</p>
-		</article>
 
 
 
 	</section>
+
 
 	<footer>
 		<div class="container">
@@ -154,7 +107,7 @@
 	</footer>
 
 
-</div>
+
 
 </body>
 </html>

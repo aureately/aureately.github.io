@@ -1,0 +1,493 @@
+@media only screen and (min-width: 1px) and (max-width: 419px) {
+	
+/*Homepage*/
+	.headermain {
+		height: 6.5em;
+	}
+
+	#logo {
+		margin-top: 2.85em;
+	}
+
+	#logo img {
+		width: 80%;
+		margin: {
+			left: auto;
+			right: auto;
+		}
+	}
+
+	h2 {
+		width: 14em;
+		display: block;
+		font-size: 0.9em;
+		clear: both;
+		margin: {
+			top: -0.5em;
+			right: 0;
+			left: 0.15em;
+			bottom: 0;
+		}
+	}
+	.container {
+		width: 80%;
+	}
+
+	.mainnav {
+		display: none;
+	}
+
+	#design-gallery {
+		width: 80%;
+		margin: {
+			top: 7.4em;
+			right: auto;
+			left: auto;
+		}
+	}
+
+	#works, .viewer {
+		width: 100%;
+	}
+
+	.work {
+		margin: {
+			right: 2%;
+			left: 2%;
+			bottom: 1.5em;
+		}
+		width: 100%;
+	}
+
+	.thumb {
+		max-width: 100%;
+		height: auto;
+	}
+
+	footer {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	.work p {
+		font-size: 0.9em;
+	}
+
+	.brief, .description, .title, .information-lastline, .information, .description-across p {
+		width: 80%;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+
+
+/*Project Pages*/
+	.pages {
+		width: 100%;
+		padding: 0;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+	.col1 {
+		width: 100%;
+	}
+	.pagenav {
+		display: none;
+	}
+	.projectbrief {
+		width: 100%;
+		margin: {
+			top: auto;
+			right: auto;
+			left: auto;
+			bottom: 1em;}
+		padding: 0;
+		font-size: 0.9em;
+
+	}
+	.projectinfo {
+		text-align: left;
+		width: 100%;
+		margin: {
+			top: 0;
+			right: auto;
+			left: auto;
+			bottom: 2.5em;
+		}
+		padding: 0;
+	}
+	.title {
+		border-bottom: 1px solid rgb(243,231,217);
+		margin-bottom: 0.25em;
+	}
+	.brief {
+		height: auto;
+	}
+	.brief p {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	h3 {
+		margin-bottom: 0;
+		font-size: 1.25em;
+	}
+	.description-across {
+		width: 100%;
+		font-size: 0.9em;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+	.lastdesc {
+		margin-bottom: 0;
+	}
+
+	#slide_container {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 599px) {
+	
+/*Homepage*/
+	.headermain {
+		height: 8em;
+	}
+
+	#logo img {
+		width: 100%;
+	}
+
+	h2 {
+		width: 12em;
+		display: block;
+		font-size: 1.1em;
+		clear: both;
+		margin: {
+			top: -0.5em;
+			right: 0;
+			left: 0.15em;
+			bottom: 0;
+		}
+	}
+
+	.container {
+		width: 88%;
+	}
+
+	.mainnav {
+		display: none;
+	}
+
+	#design-gallery, #works {
+		width: 89%;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+
+	.work {
+		margin: {
+			right: 2%;
+			left: 2%;
+		}
+		width: 46%;
+	}
+
+	.thumb {
+		max-width: 100%;
+		height: auto;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	.work p {
+		font-size: 0.9em;
+	}
+
+	footer {
+		display: none;
+	}
+
+/*Project Pages*/
+	.pages {
+		width: 100%;
+		padding: 0;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+	.col1 {
+		width: 100%;
+	}
+	.pagenav {
+		display: none;
+	}
+
+	.projectbrief {
+		width: 90%;
+		margin: {
+			top: auto;
+			right: 5%;
+			left: 5%;
+			bottom: 1em;}
+		padding: 0;
+		font-size: 0.9em;
+
+	}
+	.projectinfo {
+		text-align: left;
+		width: 90%;
+		margin: {
+			top: 0;
+			right: 5%;
+			left: 5%;
+			bottom: 2.5em;
+		}
+		padding: 0;
+	}
+	.title {
+		border-bottom: 1px solid rgb(243,231,217);
+		margin-bottom: 0.25em;
+	}
+	.description-across {
+		width: 90%;
+		font-size: 0.9em;
+		margin: {
+			right: 5%;
+			left: 5%;
+		}
+	}
+	.viewer {
+		width: 100%;
+	}
+	.lastdesc {
+		margin-bottom: 0;
+	}
+	#slide_container {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 819px) {
+
+/*Homepage*/
+	.container {
+		width: 90%;
+	}
+
+	.mainnav {
+		display: none;
+	}
+	#design-gallery, #works {
+		width: 92%;
+		margin: {
+			top: 9em;
+			right: auto;
+			left: auto;
+		}
+	}
+
+	.work {
+		margin: {
+			right: 1.5%;
+			left: 1.5%;
+		}
+		width: 30%;
+	}
+
+	.thumb {
+		max-width: 100%;
+		height: auto;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	.work p {
+		font-size: 0.9em;
+	}
+
+/*Project Pages*/
+	.pages {
+		width: 100%;
+		padding: 0;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+	.col1 {
+		width: 100%;
+	}
+
+	.pagenav {
+		display: none;
+	}
+
+	.projectbrief {
+		width: 76%;
+		margin: {
+			top: auto;
+			right: 12%;
+			left: 12%;
+			bottom: 1em;}
+		padding: 0;
+	}
+	.projectinfo {
+		text-align: left;
+		width: 76%;
+		margin: {
+			top: 0;
+			right: 12%;
+			left: 12%;
+			bottom: 2.5em;
+		}
+		padding: 0;
+	}
+	.title {
+		border-bottom: 1px solid rgb(243,231,217);
+		margin-bottom: 0.25em;
+	}
+	.viewer {
+		width: 100%;
+	}
+	.lastdesc {
+		margin-bottom: 0;
+	}
+	footer {
+		height: 3.5em;
+	}
+	#social ul {
+		width: 13em;
+		margin-top: 0.6em;
+	}
+	#social li {
+		text-align: justify;
+		margin: {
+			top: 0;
+			right: 0;
+			left: 0.75em;
+			bottom: auto;
+		}
+	}
+	#slide_container {
+	width: 100%;
+	}
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1030px) {
+
+/*Homepage*/
+	.container {
+		width: 700px;
+	}
+
+	.mainnav li {
+			padding-left: 5%;
+	}
+	h2 {
+		width: 11em;
+	}
+	#design-gallery, #works {
+		width: 720px;
+		margin: {
+			top: 9em;
+			right: auto;
+			left: auto;
+		}
+	}
+
+	.work {
+		margin: {
+			right: 0.75em;
+			left: 0.75em;
+		}
+	}
+
+/*Project Pages*/
+	.pages {
+		width: 100%;
+		padding: 0;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+	}
+	.col1 {
+		width: 100%;
+	}
+	.previous {
+		margin-right: 360px;
+		display: inline-block;
+	}
+
+	.next {
+		margin-left: 360px;
+		display: inline-block;
+
+	}
+
+/*	.projectbrief {
+		width: 82%;
+		margin: {
+			right: 11%;
+			left: 11%;
+		}
+		float: none;
+		clear: both;
+		padding: 0;
+	}
+
+	.projectinfo {
+		text-align: left;
+		width: 82%;
+		margin: {
+			top: 0;
+			right: 11%;
+			left: 11%;
+		}
+		padding: 0;
+	} */
+
+	.projectbrief {
+		width: 62%;
+		margin: {
+			top: auto;
+			right: auto;
+			left: auto;
+			bottom: 1em;}
+		padding: 0;
+	}
+	.projectinfo {
+		width: 34%;
+		margin: {
+			top: 1.4em;
+			right: auto;
+			left: auto;
+			bottom: 1em;
+		}
+		padding: 0;
+	}
+	.viewer {
+		width: 100%;
+	}
+	#slide_container {
+	width: 100%;
+	}
+}
