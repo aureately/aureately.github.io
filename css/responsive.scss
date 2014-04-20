@@ -154,6 +154,46 @@
 		width: 100%;
 	}
 
+	.right {
+		width: 98%;
+		margin: {
+			top: 10em;
+			right: auto;
+			left: auto;
+			bottom: 3em;
+		}
+		float: none;
+		clear: both;
+	}
+	.left {
+		width: 100%;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+		float: none;
+		clear: both;
+		img {
+			display: none;
+		}
+		p {
+			width: 100%;
+			float: left;
+			margin-left: 0.2em;
+		}
+		.about-header {
+			margin-top: 0;
+		}
+	}
+	.about-feature {
+		font-size: 0.8em;
+	}
+	.about-website-last {
+		margin-bottom: 6em;
+	}
+	.about-content {
+		font-size: 0.8em;
+	}
 }
 
 @media only screen and (min-width: 420px) and (max-width: 599px) {
@@ -280,6 +320,44 @@
 	#slide_container {
 		width: 100%;
 	}
+
+	.right {
+		width: 98%;
+		margin: {
+			top: 10em;
+			right: auto;
+			left: auto;
+			bottom: 3em;
+		}
+		float: none;
+		clear: both;
+	}
+	.left {
+		width: 100%;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+		float: none;
+		clear: both;
+		img {
+			display: none;
+		}
+		p {
+			width: 100%;
+			float: left;
+			margin-left: 0.2em;
+		}
+		.about-header {
+			margin-top: 0;
+		}
+	}
+	.about-feature {
+		line-height: 0.3em;
+	}
+	.about-website-last {
+		margin-bottom: 6em;
+	}
 }
 
 
@@ -389,6 +467,48 @@
 	#slide_container {
 	width: 100%;
 	}
+
+	.right {
+		width: 98%;
+		margin: {
+			top: 14em;
+			right: auto;
+			left: auto;
+			bottom: 3em;
+		}
+		float: none;
+		clear: both;
+	}
+
+	.left {
+		width: 98%;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+		float: none;
+		clear: both;
+		img {
+			float: left;
+			margin-right: 3em;
+			margin-bottom: 4em;
+			width: 40%;
+		}
+		p {
+			width: 53%;
+			float: left;
+			margin-right: 0;
+		}
+		.about-header {
+			margin-top: 0;
+		}
+	}
+	.about-feature {
+		line-height: 0.3em;
+	}
+	.about-website-last {
+		margin-bottom: 6em;
+	}
 }
 
 @media only screen and (min-width: 820px) and (max-width: 1030px) {
@@ -489,5 +609,45 @@
 	}
 	#slide_container {
 	width: 100%;
+	}
+
+	.right {
+		width: 700px;
+		margin: {
+			top: 14em;
+			right: auto;
+			left: auto;
+			bottom: 4em;
+		}
+		float: none;
+		clear: both;
+	}
+
+	.left {
+		width: 700px;
+		margin: {
+			right: auto;
+			left: auto;
+		}
+		float: none;
+		clear: both;
+		img {
+			float: left;
+			margin-right: 3em;
+		}
+		p {
+			margin-left: 3em;
+			width: 354px;
+			float: left;
+		}
+		.about-header {
+			margin-top: 0;
+		}
+	}
+	.about-feature {
+		line-height: 0.3em;
+	}
+	.about-website-last {
+		margin-bottom: 6em;
 	}
 }

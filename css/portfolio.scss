@@ -465,7 +465,63 @@ h4 {
 	opacity: 0.9;
 	filter:alpha(opacity=90);
 }
+.lb-details, .lb-close {
+	margin-top: 2em;
+}
 
+/* About */
+.left {
+	width: 270px;
+	float: left;
+	margin-left: 0.5em;
+	margin-bottom: 7em;
+}
+.right {
+	width: 64%;
+	float: right;
+	margin-bottom: 7em;
+}
+.about-pullquote {
+	font-size: 2em;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-weight: 400;
+	color: #af8e60;
+	line-height: 1.3em;
+}
+.about-content {
+	margin-bottom: 1.5em;
+}
+.about-header {
+	margin-top: 3em;
+}
+.about-header {
+	font-family: 'Libre Baskerville', serif;
+	font-style: normal;
+	font-weight: 600;
+	border-bottom: 1px solid rgb(243,231,217);
+}
+.about-feature {
+	line-height: 1em;
+}
+.about-website {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 0.9em;
+	margin-top: 2em;
+	line-height: 1.8em;
+	border-top: 1px solid #e0e0e0;
+	padding-top: 2em
+}
+.about-website-last {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 0.9em;
+	margin-top: 1em;
+	line-height: 1.8em;
+}
 /* Footer */
 
 footer {
