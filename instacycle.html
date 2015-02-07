@@ -9,16 +9,15 @@
 		<meta name="author" content="Trisha Tobias">
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
-
-		<!--JQuery-->
-		<script src="js/jquery.js"></script>
-		<script src="js/trish.js"></script>
-
+		<link href=
+		"http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic" rel="stylesheet" type="text/css">
 
 		<!--Favicon-->
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<!--Jquery-->
+		<script src="js/jquery.js"></script>
+		<script src="js/trish.js"></script>
 
 		<!--HTML5 fix for older versions of IE-->
 		<script>
@@ -27,123 +26,78 @@
 	    document.createElement('aside');
 	    document.createElement('hgroup');
 	    document.createElement('nav');
-	    document.createElement('header');
+	    document.createElement('header'); 
 	    document.createElement('footer');
 	    document.createElement('figure');
-	    document.createElement('figcaption');
+	    document.createElement('figcaption'); 
 		</script>
 
 	</head>
 <body>
 
-	<header class="headermain">
-		<div class="container">
-			<div id="logo">
-				<a href="http://www.trishatobias.com"><img src="assets/logo.png" alt="Trisha Tobias"></a>
-			</div>
-			<h2>designer & illustrator</h2>
+	<header class="mainheader">
 
-			<nav class="mainnav">
-				<ul>
-					<li><a href="http://www.trishatobias.com">design</a></li>
-					<li><a href="/process">process</a></li>
-					<li><a href="/about">about</a></li>
-				</ul>
-			</nav>
-		</div>
+		<a href="http://www.trishatobias.com">
+			<div id="logo"></div>
+		</a>
+
+		<a href="http://www.trishatobias.com">
+			<img src="assets/logo_2x.png" class="logotype">
+		</a>
+		
+		<nav class="mainnavproj">
+			<div class="navhr top"></div>
+			<ul>
+				<li class="link"><a href="http://www.trishatobias.com">work</a></li>
+				<li class="link"><a href="http://www.trishatobias.tumblr.com">blog</a></li>
+				<li class="link"><a href="/tobiasresume.pdf" target="_blank">about</a></li>
+			<div class="navhr bottom"></div>
+		</nav>
 	</header>
 
-		<nav class="pagenav">
-			<a href="/muttermuseum"><img src="assets/previous.png" class="previous" alt="previous"></a>
-			<a href="/themuse"><img src="assets/next.png" class="next" alt="next"></a>
-		</nav>
+	<section class="page">
 
-	<section id="works">
+		<img src="assets/project/instacycle-1.png" class="imgbleed marginmobile">
 
 
-		<article class="pages">
+		<div class="projectdesc">
 
-			<img src="assets/instacycle/instacycle-hero.png" class="col1" alt="image">
-
-
-			<div class="projectbrief">
-				<header class="brief">
-					<h3>Instacycle</h3>
-					<p>Mobile Application</p>
-				</header>
-
-				<div class="description">
-
-				<p>The application, a mash-up of Instagram, Gumby and Cycle Trader APIs, shows trending motorcycle models. It pulls up user-submitted images from Instagram as well as photos shown on the Cycle Trader website. This allows motorcycle enthusiasts to see these cycles in action, and know if similar bikes are for sale or trade on Cycle Trader.</p>
-
-				<p>This is the second iteration for the application. The original contest entry, which was designed and developed in under 48 hours during the Dominion Enterprises Hackathon 6 could be viewed <a href="assets/instacycle/old.png">here</a>.</p>
-
-				<p><a href="http://invis.io/WTRGA9NM" target="_blank">View demo of the application</a></p>
-				</div>
+			<div class="desctext">
+				<h4>Instacycle <span>Mobile Application</span></h4>
+				<p class="ptop">The application, a mash-up of Instagram, Gumby and Cycle Trader APIs, shows trending motorcycle models. It pulls up user-submitted images from Instagram as well as photos shown on the Cycle Trader website. This allows motorcycle enthusiasts to see these cycles in action, and know if similar bikes are for sale or trade on Cycle Trader.</p>
+				<p>This is the second iteration for the application. The original contest entry, which was designed and developed in under 48 hours during the Dominion Enterprises Hackathon 6 could be viewed <a href="assets/project/instacycle-old.png">here</a>.</p>
+				<p><a href="http://invis.io/WTRGA9NM">View demo of the application</a></p>
 			</div>
 
-			<div class="projectinfo">
-				<p class="title">Awarded</p>
-				<p class="information-lastline"><a href="http://www.dominionenterprises.com/team-meh-wins-best-show-award-dominion-enterprises-hackathon-6">DE Hackathon 6: Best in Show</a></p>
 
-				<p class="title">Team</p>
-				<p class="information"><a href="https://www.linkedin.com/pub/jose-mateo/39/a41/654">Jose Mateo</a></p>
-				<p class="information"><a href="http://www.linkedin.com/in/odeanmaye">Odean Maye</a></p>
-				<p class="information"><a href="http://www.dominionenterprises.com/team-meh-wins-best-show-award-dominion-enterprises-hackathon-6">Benedict Cipcon</a></p>
-				<p class="information"><a href="http://www.linkedin.com/pub/onapha-rattana/66/659/233">Lookmai Rattana</a</p>
-				<p class="information"><a href="http://www.linkedin.com/in/trishatobias">Trisha Tobias</a></p>
-				<p class="information-lastline"><a href="http://www.linkedin.com/in/stanzh">Stanley Zheng</a></p>
-
-			<p class="title">Image Credits</p>
-				<p class="information"><a href="http://www.cycletrader.com">CycleTrader</a></p>
-				<p class="information-lastline"><a href="https://www.facebook.com/pages/RJayStealth/513151022059432">RJayStealth</a></p>
-
-
-
+			<div class="brief">
+				<p>Awarded:<br>
+					<span><a href="http://www.dominionenterprises.com/team-meh-wins-best-show-award-dominion-enterprises-hackathon-6">DE Hackathon 6: Best in Show</a></span></p>
+				<p>Team:<br>
+					<span><a href="https://www.linkedin.com/pub/jose-mateo/39/a41/654">Jose Mateo</a><br></span>
+					<span><a href="http://www.linkedin.com/in/odeanmaye">Odean Maye</a><br></span>
+					<span><a href="http://www.dominionenterprises.com/team-meh-wins-best-show-award-dominion-enterprises-hackathon-6">Benedict Cipcon</a><br></span>
+					<span><a href="http://www.linkedin.com/pub/onapha-rattana/66/659/233">Lookmai Rattana</a><br></span>
+					<span><a href="http://www.linkedin.com/in/trishatobias">Trisha Tobias</a><br></span>
+					<span><a href="http://www.linkedin.com/in/stanzh">Stanley Zheng</a><br></span>
+				<p>Image Credits:<br>
+					<span><a href="http://www.cycletrader.com/">Cycle Trader</a><br></span>
+					<span><a href="https://www.facebook.com/pages/RJayStealth/513151022059432">RJayStealth</a><br></span>
+				</p>
 			</div>
 
-			<img src="assets/instacycle/instacycle-3views.png" class="col1" alt="image">
+		</div>
 
-			<div class="description-across">
-				<p>Changes to the application include the separation of the three categories for a better viewing experience. Instead of side-to-side scrolling, users scroll down to browse images. Clicking on the icons or swiping left and right navigates between pages.</p>
-			</div>
 
-			<img src="assets/instacycle/instacycle-search.png" class="col1" alt="image">
+		<img src="assets/project/instacycle-2.png" class="imgpadding">
+			<p class="descacross">Changes to the application include the separation of the three categories for a better viewing experience. Instead of side-to-side scrolling, users scroll down to browse images. Clicking on the icons or swiping left and right navigates between pages.</p>
 
-			<div class="description-across">
-				<p>By default, the application takes the user’s current location to find nearby motorcycle dealers. However, they are free to change to another market by providing the general state or a zip code for a more specific area.</p>
-			</div>
-		</article>
+		<img src="assets/project/instacycle-3.png" class="imgpadding">
+			<p class="descacross">By default, the application takes the user’s current location to find nearby motorcycle dealers. However, they are free to change to another market by providing the general state or a zip code for a more specific area.</p>
 
 	</section>
 
 
-	<footer>
-		<div class="container">
-			<div id="social">
-			<ul>
-				<li><a href="http://www.linkedin.com/in/trishatobias" alt="LinkedIn"><img src="assets/iconlinkedin.png"></a></li>
-				<li><a href="http://www.behance.net/trishatobias" alt="Behance"><img src="assets/iconbehance.png"></a></li>
-				<li><a href="http://www.twitter.com/thetrishatobias" alt="Twitter"><img src="assets/icontwitter.png"></a></li>
-				<li><a href="http://www.pinterest.com/trishatobias" alt="Pinterest"><img src="assets/iconpinterest.png"></a></li>
-				<li><a href="http://www.pinterest.com/trishatobias" alt="Github"><img src="assets/icongithub.png"></a></li>
-			</ul>
-			</div>
-		</div>
-	</footer>
-
-
-
 
 </body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40195172-4', 'trishatobias.com');
-  ga('send', 'pageview');
-
-</script>
 </html>

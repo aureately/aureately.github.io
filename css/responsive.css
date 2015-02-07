@@ -1,526 +1,389 @@
-@media only screen and (min-width: 1px) and (max-width: 419px) {
-  /*Homepage*/
-  .headermain {
-    height: 8.2em; }
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  .mainheader {
+    clear: both;
+    background: none;
+    width: 100%;
+    height: 130px;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: none; }
+
+  h2 {
+    line-height: 1.1em;
+    font-size: 18px; }
+
+  .page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; }
+
+  .work {
+    margin-left: 10%; }
+
+  .entry {
+    width: 78%; }
+
+  .featuredtext {
+    width: 78%;
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 100%;
+    clear: both;
+    padding-left: 6%;
+    padding-right: 5%;
+    font-size: 11px;
+    line-height: 1.8em;
+    z-index: 100; }
+
+  .heroimage {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 0;
+    width: 100%;
+    height: 400px;
+    background-size: 140%;
+    background-position: -120px center;
+    clear: both;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; }
+
+  .mainnav {
+    float: left;
+    margin-left: 0px;
+    margin-top: 12px;
+    height: 120px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 1%; }
+
+  .mainnavproj {
+    float: left;
+    margin-left: 0px;
+    margin-top: 12px;
+    height: 70px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 1%; }
+
+  .mainnav ul {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 12px;
+    text-align: left; }
+
+  .mainnavproj ul {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 12px;
+    text-align: left; }
+
+  .mainnav ul li {
+    display: block;
+    margin-bottom: 14px;
+    text-shadow: none;
+    margin-left: 8px;
+    margin-right: 12px; }
+
+  .mainnavproj ul li {
+    display: inline-block;
+    margin-bottom: 14px;
+    text-shadow: none;
+    margin-left: 8px;
+    margin-right: 12px; }
+
+  .navhr {
+    display: none; }
 
   #logo {
-    margin-top: 3.6em; }
-
-  #logo img {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; }
-
-  h2 {
-    display: none; }
-
-  .container {
-    width: 80%; }
-
-  .mainnav {
-    clear: both;
+    background: url("../assets/logo_mobile.png") center center no-repeat;
+    background-size: 60% 60%;
+    width: 70px;
+    height: 70px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
     float: left;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: -0.3em;
-    text-align: left;
-    font-size: 0.9em; }
-    .mainnav ul {
-      margin: 0; }
-    .mainnav li {
-      float: left;
-      margin-left: 0.2em;
-      padding-left: 0;
-      padding-right: 1.8em; }
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    -o-animation: none;
+    animation: none; }
 
-  #design-gallery {
-    width: 80%;
-    margin-top: 7.4em;
-    margin-right: auto;
-    margin-left: auto; }
-
-  #works, .viewer {
-    width: 100%; }
-
-  .work {
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-bottom: 1.5em;
-    width: 100%; }
-
-  .thumb {
-    max-width: 100%;
-    height: auto; }
-
-  footer {
+  .logotype {
     display: none; }
 
-  h4 {
-    font-size: 1em; }
-
-  .work p {
-    font-size: 0.9em; }
-
-  .brief, .description, .title, .information-lastline, .information, .description-across p {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto; }
-
-  /*Project Pages*/
-  .pages {
+  .projectdesc {
     width: 100%;
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto; }
-
-  .col1 {
-    width: 100%; }
-
-  .pagenav {
-    display: none; }
-
-  .projectbrief {
-    width: 100%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 1em;
-    padding: 0;
-    font-size: 0.9em; }
-
-  .projectinfo {
-    text-align: left;
-    width: 100%;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 2.5em;
-    padding: 0; }
-
-  .title {
-    border-bottom: 1px solid #f3e7d9;
-    margin-bottom: 0.25em; }
+    height: auto;
+    clear: both;
+    text-align: center;
+    margin-top: 50px; }
 
   .brief {
-    height: auto; }
-
-  .brief p {
+    width: 90%;
     display: block;
-    margin: 0;
-    padding: 0; }
+    clear: both;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 25px; }
+    .brief p {
+      font-style: italic; }
+      .brief p span {
+        margin-left: 4px; }
 
-  h3 {
-    margin-bottom: 0;
-    font-size: 1.25em; }
+  .desctext {
+    width: 90%;
+    text-align: left;
+    display: block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+    clear: both;
+    float: left; }
 
-  .description-across {
+  .marginmobile {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: auto; }
+
+  h4 {
+    font-size: 24px; }
+    h4 span {
+      font-size: 14px; }
+
+  .descacross {
+    width: 90%; } }
+@media only screen and (min-width: 501px) and (max-width: 780px) {
+  .mainheader {
+    clear: both;
+    background: none;
     width: 100%;
-    font-size: 0.9em;
-    margin-right: auto;
-    margin-left: auto; }
-
-  .lastdesc {
-    margin-bottom: 0; }
-
-  #slide_container {
-    width: 100%; }
-
-  .right {
-    width: 98%;
-    margin-top: 10em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 3em;
-    float: none;
-    clear: both; }
-
-  .left {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-    clear: both; }
-    .left img {
-      display: none; }
-    .left p {
-      width: 100%;
-      float: left;
-      margin-left: 0.2em; }
-    .left .about-header {
-      margin-top: 0; }
-
-  .about-feature {
-    font-size: 0.8em; }
-
-  .about-website-last {
-    margin-bottom: 6em; }
-
-  .about-content {
-    font-size: 0.8em; } }
-@media only screen and (min-width: 420px) and (max-width: 599px) {
-  /*Homepage*/
-  .headermain {
-    height: 9em; }
-
-  #logo img {
-    width: 100%; }
+    height: 130px;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: none; }
 
   h2 {
-    width: 11em;
-    display: block;
-    font-size: 1.1em;
-    clear: both;
-    margin-top: -0.5em;
-    margin-right: 0;
-    margin-left: 0.15em;
-    margin-bottom: 0; }
+    line-height: 1.1em;
+    font-size: 26px; }
 
-  .container {
-    width: 88%; }
-
-  .mainnav {
-    padding: 0;
-    width: auto;
-    font-size: 1em;
-    margin-top: -2em; }
-
-  #design-gallery, #works {
-    width: 89%;
+  .page {
+    margin-left: auto;
     margin-right: auto;
-    margin-left: auto; }
+    width: 100%; }
 
   .work {
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-left: 2%; }
+
+  .entry {
     width: 46%; }
 
-  .thumb {
-    max-width: 100%;
-    height: auto; }
+  .featuredtext {
+    width: 84%;
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 45%;
+    clear: both;
+    padding-left: 2%;
+    padding-right: 5%; }
 
-  h4 {
-    font-size: 1em; }
-
-  .work p {
-    font-size: 0.9em; }
-
-  footer {
-    display: none; }
-
-  /*Project Pages*/
-  .pages {
-    width: 100%;
-    padding: 0;
+  .heroimage {
+    margin-left: 6px;
     margin-right: auto;
-    margin-left: auto; }
-
-  .col1 {
-    width: 100%; }
-
-  .pagenav {
-    display: none; }
-
-  .projectbrief {
-    width: 90%;
-    margin-top: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 1em;
-    padding: 0;
-    font-size: 0.9em; }
-
-  .projectinfo {
-    text-align: left;
-    width: 90%;
-    margin-top: 0;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 2.5em;
-    padding: 0; }
-
-  .title {
-    border-bottom: 1px solid #f3e7d9;
-    margin-bottom: 0.25em; }
-
-  .description-across {
-    width: 90%;
-    font-size: 0.9em;
-    margin-right: 5%;
-    margin-left: 5%; }
-
-  .viewer {
-    width: 100%; }
-
-  .lastdesc {
-    margin-bottom: 0; }
-
-  #slide_container {
-    width: 100%; }
-
-  .right {
-    width: 98%;
-    margin-top: 10em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 3em;
-    float: none;
-    clear: both; }
-
-  .left {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-    clear: both; }
-    .left img {
-      display: none; }
-    .left p {
-      width: 100%;
-      float: left;
-      margin-left: 0.2em; }
-    .left .about-header {
-      margin-top: 0; }
-
-  .about-feature {
-    line-height: 0.3em; }
-
-  .about-website-last {
-    margin-bottom: 6em; } }
-@media only screen and (min-width: 600px) and (max-width: 819px) {
-  /*Homepage*/
-  .container {
-    width: 90%; }
+    width: 80%;
+    clear: both;
+    position: absolute; }
 
   .mainnav {
+    float: left;
+    margin-left: 0px;
+    margin-top: 12px;
+    height: 120px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 1%; }
+
+  .mainnavproj {
+    float: left;
+    margin-left: 0px;
+    margin-top: 12px;
+    height: 70px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 1%; }
+
+  .mainnav ul {
+    margin-top: 10px;
     padding: 0;
-    width: 16em;
-    font-size: 1em; }
+    font-size: 12px;
+    text-align: left; }
 
-  h2 {
-    width: 12em;
-    font-size: 1em;
-    margin-top: 4em; }
-
-  #design-gallery, #works {
-    width: 92%;
-    margin-top: 9em;
-    margin-right: auto;
-    margin-left: auto; }
-
-  .work {
-    margin-right: 1.5%;
-    margin-left: 1.5%;
-    width: 30%; }
-
-  .thumb {
-    max-width: 100%;
-    height: auto; }
-
-  h4 {
-    font-size: 1em; }
-
-  .work p {
-    font-size: 0.9em; }
-
-  /*Project Pages*/
-  .pages {
-    width: 100%;
+  .mainnavproj ul {
+    margin-top: 20px;
     padding: 0;
-    margin-right: auto;
-    margin-left: auto; }
+    font-size: 12px;
+    text-align: left; }
 
-  .col1 {
-    width: 100%; }
+  .mainnav ul li {
+    display: block;
+    margin-bottom: 14px;
+    text-shadow: none;
+    margin-left: 8px;
+    margin-right: 12px; }
 
-  .pagenav {
+  .mainnavproj ul li {
+    display: inline-block;
+    margin-bottom: 14px;
+    text-shadow: none;
+    margin-left: 8px;
+    margin-right: 12px; }
+
+  .navhr {
     display: none; }
 
-  .projectbrief {
-    width: 76%;
-    margin-top: auto;
-    margin-right: 12%;
-    margin-left: 12%;
-    margin-bottom: 1em;
-    padding: 0; }
+  #logo {
+    background: url("../assets/logo_mobile.png") center center no-repeat;
+    background-size: 60% 60%;
+    width: 70px;
+    height: 70px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: left;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    -o-animation: none;
+    animation: none; }
 
-  .projectinfo {
+  .logotype {
+    display: none; }
+
+  .projectdesc {
+    width: 100%;
+    height: auto;
+    clear: both;
+    text-align: center;
+    margin-top: 50px; }
+
+  .brief {
+    width: 90%;
+    display: block;
+    clear: both;
     text-align: left;
-    width: 76%;
-    margin-top: 0;
-    margin-right: 12%;
-    margin-left: 12%;
-    margin-bottom: 2.5em;
-    padding: 0; }
-
-  .title {
-    border-bottom: 1px solid #f3e7d9;
-    margin-bottom: 0.25em; }
-
-  .viewer {
-    width: 100%; }
-
-  .lastdesc {
-    margin-bottom: 0; }
-
-  footer {
-    height: 3.5em; }
-
-  #social ul {
-    width: 13em;
-    margin-top: 0.6em; }
-
-  #social li {
-    text-align: justify;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0.75em;
-    margin-bottom: auto; }
-
-  #slide_container {
-    width: 100%; }
-
-  .right {
-    width: 98%;
-    margin-top: 14em;
+    margin-top: 20px;
+    margin-left: 0;
     margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 3em;
-    float: none;
-    clear: both; }
+    margin-bottom: 25px; }
+    .brief p {
+      font-style: italic; }
+      .brief p span {
+        margin-left: 4px; }
 
-  .left {
-    width: 98%;
+  .desctext {
+    width: 90%;
+    text-align: left;
+    display: block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 0;
     margin-right: auto;
-    margin-left: auto;
-    float: none;
-    clear: both; }
-    .left img {
-      float: left;
-      margin-right: 3em;
-      margin-bottom: 4em;
-      width: 40%; }
-    .left p {
-      width: 52.5%;
-      float: left;
-      margin-right: 0; }
-    .left .about-header {
-      margin-top: 0; }
+    margin-bottom: auto;
+    clear: both;
+    float: left; }
 
-  .about-feature {
-    line-height: 0.3em; }
+  .marginmobile {
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: auto; }
 
-  .about-website-last {
-    margin-bottom: 6em; } }
-@media only screen and (min-width: 820px) and (max-width: 1030px) {
-  /*Homepage*/
-  .container {
-    width: 700px; }
-
-  .mainnav li {
-    padding-left: 5%; }
-
+  h4 {
+    font-size: 24px; }
+    h4 span {
+      font-size: 14px; } }
+@media only screen and (min-width: 781px) and (max-width: 960px) {
   h2 {
-    width: 11em; }
-
-  #design-gallery, #works {
-    width: 720px;
-    margin-top: 9em;
-    margin-right: auto;
-    margin-left: auto; }
+    line-height: 1.1em; }
 
   .work {
-    margin-right: 0.75em;
-    margin-left: 0.75em; }
+    margin-left: 2%; }
 
-  /*Project Pages*/
-  .pages {
+  .entry {
+    width: 46%; }
+
+  .featuredtext {
+    width: 300px;
+    margin-left: 0px;
+    clear: both;
+    position: absolute; }
+
+  .heroimage {
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    clear: both;
+    background-position: bottom left; }
+
+  .projectdesc {
     width: 100%;
-    padding: 0;
+    height: auto;
+    clear: both;
+    text-align: center;
+    margin-top: 50px; }
+
+  .brief {
+    width: 90%;
+    display: block;
+    clear: both;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0;
     margin-right: auto;
-    margin-left: auto; }
+    margin-bottom: 25px; }
+    .brief p {
+      font-style: italic; }
+      .brief p span {
+        margin-left: 4px; }
 
-  .col1 {
-    width: 100%; }
-
-  .previous {
-    margin-right: 360px;
-    display: inline-block; }
-
-  .next {
-    margin-left: 360px;
-    display: inline-block; }
-
-  /*	.projectbrief {
-  		width: 82%;
-  		margin: {
-  			right: 11%;
-  			left: 11%;
-  		}
-  		float: none;
-  		clear: both;
-  		padding: 0;
-  	}
-  
-  	.projectinfo {
-  		text-align: left;
-  		width: 82%;
-  		margin: {
-  			top: 0;
-  			right: 11%;
-  			left: 11%;
-  		}
-  		padding: 0;
-  	} */
-  .projectbrief {
-    width: 62%;
-    margin-top: auto;
+  .desctext {
+    width: 90%;
+    text-align: left;
+    display: block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 0;
     margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 1em;
-    padding: 0; }
+    margin-bottom: auto;
+    clear: both;
+    float: left; } }
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  h2 {
+    line-height: 1.1em; }
 
-  .projectinfo {
-    width: 34%;
-    margin-top: 1.4em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 1em;
-    padding: 0; }
+  .work {
+    margin-left: 2%; }
 
-  .viewer {
-    width: 100%; }
+  .entry {
+    width: 30%; }
 
-  #slide_container {
-    width: 100%; }
+  .featuredtext {
+    width: 300px;
+    margin-left: 0px; }
 
-  .right {
-    width: 700px;
-    margin-top: 14em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 4em;
-    float: none;
-    clear: both; }
+  .heroimage {
+    margin-left: 0;
+    margin-right: 3%;
+    width: 58%; } }
 
-  .left {
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-    clear: both; }
-    .left img {
-      float: left;
-      margin-right: 3em; }
-    .left p {
-      margin-left: 3em;
-      width: 354px;
-      float: left; }
-    .left .about-header {
-      margin-top: 0; }
-
-  .about-feature {
-    line-height: 0.3em; }
-
-  .about-website-last {
-    margin-bottom: 6em; } }
+/*# sourceMappingURL=responsive.css.map */
