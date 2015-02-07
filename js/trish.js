@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+<<<<<<< HEAD
 // For gallery images
 	$('.work').mouseenter(function() {
 		$(this).find('.thumb').fadeTo("fast",0.5);
@@ -19,6 +20,8 @@ $(document).ready(function() {
 		$(this).fadeTo("fast",0.7);
 	});
 
+=======
+>>>>>>> gh-pages
 // Navigation animation when scrolling
 	var header_up = false;
 
@@ -40,6 +43,7 @@ $(document).ready(function() {
 
 	});
 
+<<<<<<< HEAD
 // For project page navigation
 
 	$('.pagenav img').mouseenter(function() {
@@ -49,5 +53,7 @@ $(document).ready(function() {
 	$('.pagenav img').mouseleave(function() {
 		$(this).fadeTo("fast",0.7);
 	});
+=======
+>>>>>>> gh-pages
 
 });
