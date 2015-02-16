@@ -108,6 +108,9 @@ a:hover {
   width: calc(100% - 150px);
   padding-bottom: 70px; }
 
+.page > img {
+  display: none; }
+
 /* Logo Animation */
 #logo {
   width: 90px;
@@ -173,7 +176,8 @@ a:hover {
 .work {
   width: 100%;
   clear: both;
-  margin-left: 3%; }
+  margin-left: 3%;
+  display: none; }
 
 .entry {
   width: 21.5%;
@@ -203,7 +207,8 @@ a:hover {
   width: 100%;
   margin-left: 5%;
   margin-right: 1%;
-  margin-top: 3%; }
+  margin-top: 3%;
+  display: none; }
   .featured p:last-child {
     border-top: 1px solid #ddcfbc;
     padding-top: 19px; }
@@ -280,7 +285,8 @@ a:hover {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-left: 5%; }
+  padding-left: 5%;
+  display: none; }
 
 .brief {
   width: 34%;
@@ -328,7 +334,11 @@ h4 {
 .descacross {
   width: 70%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  display: none; }
+
+.last {
+  margin-bottom: 50px; }
 
 .centeredtext {
   text-align: center; }
@@ -339,7 +349,8 @@ h4 {
   overflow: hidden;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: none; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -381,6 +392,58 @@ h4 {
   margin-bottom: 5em;
   display: inline-block;
   clear: both;
-  float: left; }
+  float: left;
+  display: none; }
+
+/* About Page */
+.blurb {
+  width: 70%;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #b18f61;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddcfbc;
+  width: 93%;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  clear: both;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 10px;
+  display: none; }
+  footer p {
+    display: inline-block;
+    width: auto;
+    float: left;
+    vertical-align: middle;
+    margin-top: 14px;
+    padding: 0; }
+  footer ul {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 0; }
+    footer ul li {
+      display: inline-block;
+      float: left; }
+
+.footericon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  filter: alpha(opacity=100); }
 
 /*# sourceMappingURL=portfolio.css.map */

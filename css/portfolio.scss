@@ -110,6 +110,9 @@ a:hover {
   width: calc(100% - 150px);
   padding-bottom: 70px;
 }
+.page > img {
+    display: none;
+  }
 /* Logo Animation */
 #logo {
   width: 90px;
@@ -183,7 +186,9 @@ a:hover {
   margin: {
     left: 3%;
   }
+  display: none;
 }
+
 .entry {
   width: 21.5%;
   height: auto;
@@ -222,6 +227,7 @@ a:hover {
     border-top: 1px solid #ddcfbc;
     padding-top: 19px;
   }
+  display: none;
 }
 .heroimage {
   background: url('../assets/featured.png') no-repeat;
@@ -309,7 +315,6 @@ a:hover {
     bottom: 20px;
   }
 }
-
 /* Description: Project Page */
 .projectdesc {
   width: 80%;
@@ -319,6 +324,7 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   padding-left: 5%;
+  display: none;
 }
 .brief {
   width: 34%;
@@ -372,8 +378,11 @@ h4 {
     left: auto;
     right: auto;
   }
+  display: none;
 }
-
+.last {
+  margin-bottom: 50px;
+}
 .centeredtext {
   text-align: center;
 }
@@ -384,7 +393,9 @@ h4 {
   overflow: hidden;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: none;
+}
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -425,4 +436,71 @@ h4 {
   margin-bottom: 5em;
   display: inline-block;
   clear: both;
-  float: left; }
+  float: left;
+  display: none;
+}
+
+/* About Page */
+.blurb {
+  width: 70%;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #b18f61;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddcfbc;
+  width: 93%;
+  margin: {
+    top: 6px;
+    left: auto;
+    right: auto;
+    bottom: 20px;
+  }
+  clear: both;
+  position: relative;
+  padding: {
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+  p {
+    display: inline-block;
+    width: auto;
+    float: left;
+    vertical-align: middle;
+    margin-top: 14px;
+    padding: 0;
+  }
+  ul {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: {
+      top: 9px;
+      left: 10px;
+      bottom: 0;
+    }
+    li {
+      display: inline-block;
+      float: left;
+    }
+  }
+  display: none;
+}
+
+.footericon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}

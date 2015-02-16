@@ -1,25 +1,37 @@
 $(document).ready(function() {
 
-// Navigation animation when scrolling
-	var header_up = false;
-
-	$(window).scroll(function() {
-		
-	console.log("scroll");
-
-		if($(window).scrollTop() > 30) {
-			if(header_up === false) {
-				$('.headermain').css("border-bottom","1px solid rgb(243,231,217)").stop().animate({marginTop:"-2.25em"},"fast");
-				header_up = true;
-			}
-		} else {
-			if(header_up === true) {
-			$('.headermain').css("border-bottom","none").stop().animate({marginTop:"0em"},"fast");
-			header_up = false;
-		}
-	}
-
+// For page load
+	$('.featured').fadeIn(700, function() {
+		$('.work').fadeIn(700, function() {
+			$('footer').fadeIn(300);
+		});
 	});
 
+	$('.page img').fadeIn(700);
+	$('.descacross').fadeIn(700);
+	$('.projectdesc').fadeIn(700, function() {
+		$('footer').fadeIn(300);
+	});
+	$('.rslides').fadeIn(700);
+	$('.viewer').fadeIn(700);
+
+// For thumbnails
+
+	$('.entry').mouseenter(function() {
+		$(this).find('.thumbnail').fadeTo('fast',0.7);
+	});
+	$('.entry').mouseleave(function() {
+		$(this).find('.thumbnail').fadeTo('fast',1);
+	});
+
+// For social icons
+
+	$('.footericon').mouseenter(function() {
+		$(this).fadeTo("fast",0.7);
+	});
+
+	$('.footericon').mouseleave(function() {
+		$(this).fadeTo("fast",1);
+	});
 
 });
