@@ -1,4 +1,4 @@
-/* CSS for trishatobias.com. Cool beans. */
+/* Trisha Tobias was here. Cool beans. */
 article, section, aside, hgroup, nav, header, footer, figure, figcaption {
   display: block; }
 
@@ -97,7 +97,7 @@ a, a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: #a18155;
+  color: #d5ae78;
   transition: color 0.6s ease-in-out;
 }
 /* Page */
@@ -441,15 +441,96 @@ h4 {
 }
 
 /* About Page */
+.aboutleft {
+  width: 44%;
+  margin: {
+    left: 30%;
+    top: 150px;
+    }
+    float: left;
+  }
+.aboutright {
+  width: 170px;
+  margin: {
+    top: 336px;
+    left: 3%;
+  }
+  float: left;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: block;
+      margin: {
+        left: 0px;
+      }
+      padding: 0;
+    }
+  }
+}
 .blurb {
-  width: 70%;
-  font-size: 24px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: #b18f61;
+  margin: {
+    left: auto;
+    right: auto;
+    bottom: 35px;
+  }
+  clear: both;
+  line-height: 1.4em;
+}
+.hello {
+  width: 100%;
+  font-size: 60px;
   font-weight: 400;
   font-style: italic;
   color: #b18f61;
   margin: {
     left: auto;
     right: auto;
+    bottom: 50px;
+  }
+  clear: both;
+}
+.about {
+  width: 100%;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  clear: both;
+}
+.aboutinfo {
+  width: 48%;
+  margin: {
+    top: 30px;
+    left: auto;
+    right: auto;
+    bottom: 18px;
+  }
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  float: left;
+}
+
+.borderright {
+  border-right: 1px solid #eeeeee;
+  margin: {
+    right: 16px;
+  }
+}
+.bordertop {
+  border-top: 1px solid #eeeeee;
+  margin: {
+    top: 20px;
+  }
+  padding: {
+    top: 20px;
   }
 }
 

@@ -221,6 +221,35 @@ footer {
   margin-left: auto;
   margin-right: auto;
  }
+.aboutinfo {
+	width: 44%;
+	text-align: left;
+	padding-right: 3%;
+}
+.aboutleft {
+	width: 90%;
+	margin: {
+		top: 100px;
+		left: 5%;
+		right: 5%;
+	}
+	clear: both;
+}
+.aboutright {
+	width: 90%;
+	margin: {
+		top: 100px;
+		left: 5%;
+		right: 5%;
+	}
+	clear: both;
+}
+.bordertop {
+	border: none;
+}
+.borderright {
+	margin-right: 20px;
+}
 }
 
 
@@ -399,7 +428,35 @@ h4 {
 		font-size: 14px;
 	}
 }
-
+.aboutinfo {
+	width: 44%;
+	text-align: left;
+	padding-right: 3%;
+}
+.aboutleft {
+	width: 80%;
+	margin: {
+		top: 100px;
+		left: 10%;
+		right: 10%;
+	}
+	clear: both;
+}
+.aboutright {
+	width: 90%;
+	margin: {
+		top: 100px;
+		left: 5%;
+		right: 5%;
+	}
+	clear: both;
+}
+.bordertop {
+	border: none;
+}
+.borderright {
+	margin-right: 20px;
+}
 }
 
 @media only screen and (min-width: 781px) and (max-width: 960px) {
@@ -475,6 +532,35 @@ h2 {
 	clear: both;
 	float: left;
 }
+.aboutinfo {
+	width: 44%;
+	text-align: left;
+	padding-right: 3%;
+}
+.aboutleft {
+	width: 80%;
+	margin: {
+		top: 100px;
+		left: 10%;
+		right: 10%;
+	}
+	clear: both;
+}
+.aboutright {
+	width: 90%;
+	margin: {
+		top: 100px;
+		left: 5%;
+		right: 5%;
+	}
+	clear: both;
+}
+.bordertop {
+	border: none;
+}
+.borderright {
+	margin-right: 20px;
+}
 }
 
 
@@ -502,11 +588,31 @@ h2 {
 	margin-right: 3%;
 	width: 58%;
 }
-
+.blurb {
+	font-size: 18px;
+}
+.hello {
+	font-size: 52px;
+}
 }
 
 
-@media only screen and (min-width: 1000px) and (max-width: 1300px) {
-
+@media only screen and (min-width: 1570px) {
+.heroimage {
+  background: url('../assets/featured.png') no-repeat bottom right;
+  background-size: 780px;
+  width: 50%;
+  height: 470px;
+  margin: {
+    bottom: 3%;
+    right: 200px;
+  }
+  float: right;
+}
+.featuredtext {
+	margin: {
+		left: 6%;
+	}
+}
 
 }
