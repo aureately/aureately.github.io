@@ -192,7 +192,7 @@
     margin-right: auto; }
 
   .aboutinfo {
-    width: 44%;
+    width: 90%;
     text-align: left;
     padding-right: 3%; }
 
@@ -210,7 +210,7 @@
       margin-bottom: 14px; }
 
   .column {
-    width: 40%;
+    width: 46%;
     margin-bottom: 70px; }
 
   .lastcolumn {
@@ -220,7 +220,8 @@
     border: none; }
 
   .borderright {
-    margin-right: 20px; } }
+    margin-right: 20px;
+    border: 0; } }
 @media only screen and (min-width: 501px) and (max-width: 780px) {
   .mainheader {
     clear: both;
