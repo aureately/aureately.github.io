@@ -226,7 +226,7 @@ footer {
 	text-align: left;
 	padding-right: 3%;
 }
-.aboutleft {
+.about {
 	width: 90%;
 	margin: {
 		top: 100px;
@@ -235,14 +235,19 @@ footer {
 	}
 	clear: both;
 }
-.aboutright {
-	width: 90%;
-	margin: {
-		top: 100px;
-		left: 5%;
-		right: 5%;
+.personalprojects {
+	height: 510px;
+	img {
+		width: 50px;
+		margin-bottom: 14px;
 	}
-	clear: both;
+}
+.column {
+	width: 40%;
+	margin-bottom: 70px;
+}
+.lastcolumn {
+	width: 100%;
 }
 .bordertop {
 	border: none;
@@ -433,7 +438,7 @@ h4 {
 	text-align: left;
 	padding-right: 3%;
 }
-.aboutleft {
+.about {
 	width: 80%;
 	margin: {
 		top: 100px;
@@ -442,14 +447,8 @@ h4 {
 	}
 	clear: both;
 }
-.aboutright {
-	width: 90%;
-	margin: {
-		top: 100px;
-		left: 5%;
-		right: 5%;
-	}
-	clear: both;
+.column {
+	width: 30%;
 }
 .bordertop {
 	border: none;
@@ -537,7 +536,7 @@ h2 {
 	text-align: left;
 	padding-right: 3%;
 }
-.aboutleft {
+.about {
 	width: 80%;
 	margin: {
 		top: 100px;
@@ -546,14 +545,8 @@ h2 {
 	}
 	clear: both;
 }
-.aboutright {
-	width: 90%;
-	margin: {
-		top: 100px;
-		left: 5%;
-		right: 5%;
-	}
-	clear: both;
+.column {
+	width: 28%;
 }
 .bordertop {
 	border: none;
@@ -588,11 +581,17 @@ h2 {
 	margin-right: 3%;
 	width: 58%;
 }
-.blurb {
-	font-size: 18px;
-}
 .hello {
 	font-size: 52px;
+}
+.about {
+	width: 580px;
+	margin: {
+		left: 18%;
+	}
+}
+.column {
+	width: 33%;
 }
 }
 
@@ -614,5 +613,64 @@ h2 {
 		left: 6%;
 	}
 }
-
+.about {
+	margin: {
+		left: 13%;
+		top: 250px;
+	}
+	padding: 0;
+	clear: none;
+	float: left;
+	display: inline-block;
+}
+.personalprojects {
+	height: 190px;
+	img {
+		width: 40px;
+		margin: 0;
+	}
+	margin: {
+		bottom: 10px;
+		top: 0;
+	}
+	border: 0;
+}
+.column {
+	width: 30%;
+}
+h5 {
+	font-size: 16px;
+	margin-bottom: 18px;
+}
+.aboutright {
+	width: 30%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	clear: none;
+	margin: {
+		left: 80px;
+		top: 370px;
+	}
+	border-left: double #dac7ae;
+	padding: {
+		bottom: 5px;
+		top: 0px;
+	}
+}
+.followme {
+	margin: {
+		top: 10px;
+		left: auto;
+		right: auto;
+	}
+	h5 {
+		margin-bottom: 0;
+	}
+	border-top: 1px solid #f2f2f2;
+	width: 84%;
+	padding: {
+		top: 10px;
+	}
+}
 }

@@ -372,6 +372,14 @@ h4 {
     color: #7a7a7a;
   }
 }
+h5 {
+  width: 100%;
+  font-size: 20px;
+  color: #b18f61;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+}
 .descacross {
   width: 70%;
   margin: {
@@ -441,36 +449,20 @@ h4 {
 }
 
 /* About Page */
-.aboutleft {
-  width: 44%;
+.about {
+  width: 580px;
+  height: auto;
   margin: {
-    left: 30%;
-    top: 150px;
+    left: 28%;
+    top: 70px;
+    bottom: 60px;
     }
-    float: left;
+    float: left; 
+    clear: both;
   }
-.aboutright {
-  width: 170px;
-  margin: {
-    top: 336px;
-    left: 3%;
-  }
-  float: left;
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      display: block;
-      margin: {
-        left: 0px;
-      }
-      padding: 0;
-    }
-  }
-}
 .blurb {
   width: 100%;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   font-style: normal;
   color: #b18f61;
@@ -495,7 +487,7 @@ h4 {
   }
   clear: both;
 }
-.about {
+.abouttext {
   width: 100%;
   margin: {
     left: auto;
@@ -517,7 +509,50 @@ h4 {
   }
   float: left;
 }
-
+.personalprojects {
+  width: 100%;
+  height: 320px;
+  text-align: center;
+  padding: auto;
+  border: {
+    top: double #dac7ae;
+    bottom: double #dac7ae;
+  }
+  margin: {
+    top: 60px;
+    bottom: 60px;
+  }
+  clear: both;
+  p {
+    margin: 0;
+  }
+  img {
+    margin-bottom: 20px;
+    width: 60px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+}
+.column {
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+.followme {
+  text-align: center;
+  h5 {
+    margin-bottom: 10px;
+  }
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    img {
+      width: 40px;
+    }
+  }
+}
 .borderright {
   border-right: 1px solid #eeeeee;
   margin: {

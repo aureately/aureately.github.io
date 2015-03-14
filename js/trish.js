@@ -15,6 +15,7 @@ $(document).ready(function() {
 	$('.rslides').fadeIn(700);
 	$('.viewer').fadeIn(700);
 
+
 // For thumbnails
 
 	$('.entry').mouseenter(function() {
@@ -24,8 +25,25 @@ $(document).ready(function() {
 		$(this).find('.thumbnail').fadeTo('fast',1);
 	});
 
+// For Personal Projects
+	$('.personalprojects img').mouseenter(function() {
+		$(this).fadeTo("fast",0.7);
+	});
+
+	$('.personalprojects img').mouseleave(function() {
+		$(this).fadeTo("fast",1);
+	});
+
 // For social icons
 
+	$('.followme img').mouseenter(function() {
+		$(this).fadeTo("fast",0.7);
+	});
+
+	$('.followme img').mouseleave(function() {
+		$(this).fadeTo("fast",1);
+	});
+	
 	$('.footericon').mouseenter(function() {
 		$(this).fadeTo("fast",0.7);
 	});

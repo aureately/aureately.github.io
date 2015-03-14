@@ -196,19 +196,25 @@
     text-align: left;
     padding-right: 3%; }
 
-  .aboutleft {
+  .about {
     width: 90%;
     margin-top: 100px;
     margin-left: 5%;
     margin-right: 5%;
     clear: both; }
 
-  .aboutright {
-    width: 90%;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-    clear: both; }
+  .personalprojects {
+    height: 510px; }
+    .personalprojects img {
+      width: 50px;
+      margin-bottom: 14px; }
+
+  .column {
+    width: 40%;
+    margin-bottom: 70px; }
+
+  .lastcolumn {
+    width: 100%; }
 
   .bordertop {
     border: none; }
@@ -371,19 +377,15 @@
     text-align: left;
     padding-right: 3%; }
 
-  .aboutleft {
+  .about {
     width: 80%;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     clear: both; }
 
-  .aboutright {
-    width: 90%;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-    clear: both; }
+  .column {
+    width: 30%; }
 
   .bordertop {
     border: none; }
@@ -452,19 +454,15 @@
     text-align: left;
     padding-right: 3%; }
 
-  .aboutleft {
+  .about {
     width: 80%;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     clear: both; }
 
-  .aboutright {
-    width: 90%;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-    clear: both; }
+  .column {
+    width: 28%; }
 
   .bordertop {
     border: none; }
@@ -490,11 +488,15 @@
     margin-right: 3%;
     width: 58%; }
 
-  .blurb {
-    font-size: 18px; }
-
   .hello {
-    font-size: 52px; } }
+    font-size: 52px; }
+
+  .about {
+    width: 580px;
+    margin-left: 18%; }
+
+  .column {
+    width: 33%; } }
 @media only screen and (min-width: 1570px) {
   .heroimage {
     background: url("../assets/featured.png") no-repeat bottom right;
@@ -506,6 +508,52 @@
     float: right; }
 
   .featuredtext {
-    margin-left: 6%; } }
+    margin-left: 6%; }
+
+  .about {
+    margin-left: 13%;
+    margin-top: 250px;
+    padding: 0;
+    clear: none;
+    float: left;
+    display: inline-block; }
+
+  .personalprojects {
+    height: 190px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border: 0; }
+    .personalprojects img {
+      width: 40px;
+      margin: 0; }
+
+  .column {
+    width: 30%; }
+
+  h5 {
+    font-size: 16px;
+    margin-bottom: 18px; }
+
+  .aboutright {
+    width: 30%;
+    height: auto;
+    float: left;
+    display: inline-block;
+    clear: none;
+    margin-left: 80px;
+    margin-top: 370px;
+    border-left: double #dac7ae;
+    padding-bottom: 5px;
+    padding-top: 0px; }
+
+  .followme {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #f2f2f2;
+    width: 84%;
+    padding-top: 10px; }
+    .followme h5 {
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=responsive.css.map */
