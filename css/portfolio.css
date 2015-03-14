@@ -226,7 +226,9 @@ a:hover {
   width: 390px;
   float: left;
   margin-top: 3.5%;
-  margin-left: 40px; }
+  margin-left: 40px;
+  position: relative;
+  z-index: 1000; }
   .featuredtext p {
     margin-top: 20px;
     margin-left: 2px; }
