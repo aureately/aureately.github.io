@@ -106,7 +106,7 @@ a:hover {
   right: 0;
   float: right;
   width: calc(100% - 150px);
-  padding-bottom: 70px; }
+  padding-bottom: 20px; }
 
 .page > img {
   display: none; }
@@ -272,6 +272,14 @@ a:hover {
   margin-right: 20%;
   margin-bottom: 20px; }
 
+.imgpadding4 {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px; }
+
 .imgpaddingslide {
   width: 60%;
   margin-top: auto;
@@ -295,7 +303,7 @@ a:hover {
   text-align: right;
   display: inline-block;
   vertical-align: top;
-  margin-top: -5px;
+  margin-top: 0px;
   margin-left: 6%;
   float: left; }
   .brief p {
@@ -323,6 +331,7 @@ h4 {
   width: 100%;
   border-bottom: 1px solid #b18f61;
   font-size: 30px;
+  line-height: 1.25em;
   color: #b18f61;
   font-weight: 400;
   margin-bottom: 1px;

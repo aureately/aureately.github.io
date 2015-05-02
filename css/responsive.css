@@ -468,7 +468,15 @@
     border: none; }
 
   .borderright {
-    margin-right: 20px; } }
+    margin-right: 20px; }
+
+  .imgpadding4 {
+    width: 88%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 20px; } }
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
   h2 {
     line-height: 1.1em; }
