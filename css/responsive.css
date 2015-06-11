@@ -159,6 +159,11 @@
     margin-bottom: 20px;
     margin-left: 5%; }
 
+  .marginmobilefull {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+
   h4 {
     font-size: 24px; }
     h4 span {
@@ -367,6 +372,11 @@
     margin-left: 5%;
     margin-right: auto; }
 
+  .marginmobilefull {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+
   h4 {
     font-size: 24px; }
     h4 span {
@@ -476,7 +486,12 @@
     margin-top: 20px;
     margin-left: 6%;
     margin-right: 6%;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .marginmobilefull {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; } }
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
   h2 {
     line-height: 1.1em; }
