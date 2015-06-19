@@ -37,6 +37,11 @@
     line-height: 1.8em;
     z-index: 100; }
 
+  .artwork {
+    margin-top: 300px;
+    margin-bottom: 40px;
+    padding-top: 0; }
+
   .heroimage {
     margin-left: 0;
     margin-right: auto;
@@ -51,6 +56,21 @@
     left: 0;
     z-index: 0; }
 
+  .heroimage-artwork {
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-position: center center;
+    clear: both;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 0; }
+
   .mainnav {
     float: left;
     margin-left: 0px;
@@ -58,6 +78,9 @@
     height: 120px;
     border-left: 1px solid #e0e0e0;
     padding-left: 1%; }
+
+  .mainnavartwork {
+    height: 54px; }
 
   .mainnavproj {
     float: left;
@@ -85,6 +108,9 @@
     text-shadow: none;
     margin-left: 8px;
     margin-right: 12px; }
+
+  .mainnavartwork ul li {
+    display: inline-block; }
 
   .mainnavproj ul li {
     display: inline-block;
@@ -262,10 +288,22 @@
     padding-left: 2%;
     padding-right: 5%; }
 
+  .artwork {
+    margin-top: 60%;
+    margin-bottom: 20px; }
+
   .heroimage {
     margin-left: 6px;
     margin-right: auto;
     width: 80%;
+    clear: both;
+    position: absolute; }
+
+  .heroimage-artwork {
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 90%;
     clear: both;
     position: absolute; }
 
@@ -276,6 +314,9 @@
     height: 120px;
     border-left: 1px solid #e0e0e0;
     padding-left: 1%; }
+
+  .mainnavartwork {
+    height: 60px; }
 
   .mainnavproj {
     float: left;
@@ -303,6 +344,9 @@
     text-shadow: none;
     margin-left: 8px;
     margin-right: 12px; }
+
+  .mainnavartwork ul li {
+    display: inline-block; }
 
   .mainnavproj ul li {
     display: inline-block;
@@ -426,6 +470,24 @@
     clear: both;
     background-position: bottom left; }
 
+  .artwork {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    clear: both;
+    width: 220px; }
+    .artwork h2 {
+      font-size: 25px; }
+
+  .heroimage-artwork {
+    margin-left: 34%;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 55%;
+    height: 240px;
+    clear: both;
+    background-position: center center; }
+
   .projectdesc {
     width: 100%;
     height: auto;
@@ -511,6 +573,12 @@
     margin-right: 3%;
     width: 58%; }
 
+  .heroimage-artwork {
+    margin-left: 0;
+    margin-right: 3%;
+    margin-bottom: -5%;
+    width: 58%; }
+
   .hello {
     font-size: 52px; }
 
@@ -527,6 +595,15 @@
     width: 50%;
     height: 470px;
     margin-bottom: 3%;
+    margin-right: 200px;
+    float: right; }
+
+  .heroimage-artwork {
+    background: url("../assets/featured-artwork.png") no-repeat bottom right;
+    background-size: 780px;
+    width: 50%;
+    height: 470px;
+    margin-bottom: 0;
     margin-right: 200px;
     float: right; }
 

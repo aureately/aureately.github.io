@@ -240,6 +240,17 @@ a:hover {
   }
   float: left;
 }
+.heroimage-artwork {
+  background: url('../assets/featured-artwork.png') no-repeat;
+  background-size: 100%;
+  width: 50%;
+  height: 370px;
+  margin: {
+    bottom: 0;
+    right: 3%;
+  }
+  float: left;
+}
 .featuredtext {
   width: 390px;
   float: left;
