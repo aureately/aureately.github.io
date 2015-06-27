@@ -13,6 +13,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
+  font-kerning: normal;
   line-height: 1.8em;
   letter-spacing: 0.03em;
   color: #746e68;
@@ -111,7 +112,7 @@ a:hover {
 .page > img {
   display: none; }
 
-/* Logo Animation */
+/* Animation */
 #logo {
   width: 90px;
   height: 90px;
