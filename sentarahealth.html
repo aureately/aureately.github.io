@@ -19,6 +19,16 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/trish.js"></script>
 
+		<!--Zoomer-->
+		<script src="js/jquery.fs.zoomer.js"></script>
+		<link href="css/jquery.fs.zoomer.css" rel="stylesheet">
+
+		<script>
+			 $(function() {
+			 	$(".viewer").zoomer();
+			 });
+		</script>
+
 		<!--HTML5 fix for older versions of IE-->
 		<script>
 	    document.createElement('article');
@@ -26,7 +36,7 @@
 	    document.createElement('aside');
 	    document.createElement('hgroup');
 	    document.createElement('nav');
-	    document.createElement('header');
+	    document.createElement('header'); 
 	    document.createElement('footer');
 	    document.createElement('figure');
 	    document.createElement('figcaption'); 
@@ -48,8 +58,8 @@
 		<nav class="mainnavproj">
 			<div class="navhr top"></div>
 			<ul>
-				<li class="link"><a href="http://www.trishatobias.com">work</a></li>
-				<li class="link"><a href="http://instagram.com/trishatobias" target="_blank">sketches</a></li>
+				<li class="link"><a href="http://www.trishatobias.com">design</a></li>
+				<li class="link"><a href="/art">artwork</a></li>
 				<li class="link"><a href="/about">about</a></li>
 			<div class="navhr bottom"></div>
 		</nav>
@@ -57,28 +67,32 @@
 
 	<section class="page">
 
-		<img src="assets/project/revamp-3.png" class="imgbleed marginmobile">
-
+		<div class="viewer">
+			<img src="assets/project/sentarahp-1.png" alt="image">
+		</div>	
 
 
 		<div class="projectdesc">
 
-			<div class="desctext">
-				<h4>Miscellaneous Marks and Logos</h4>
-				<p class="ptop">This is a collection of marks and logos, which include both client and experimental work, done over the years.</p>
+			<div class="desctext last">
+				<h4>Sentara Health Plans <span>Infographic</span></h4>
+				<p class="ptop">The team at <a href="http://www.madebysway.com">Sway</a> was tasked to create an informative piece for Sentara Health Plans, a division of Sentara Healthcare which focuses on providing insurance, healthcare plans and other medical services for members.</p>
 			</div>
 
 
 			<div class="brief">
-				<p>Year:<br>
-					<span>2013-Present</span></p>
+				<p>Client:<br>
+					<span><a href="http://www.sentara.com/" target="_blank">Sentara</a></span></p>
+				<p>Team:<br>
+					<span>Bryce Picard – Art Director<br></span>
+					<span>Todd Aftel – Art Director<br></span>
+					<span>Trisha Tobias – Designer<br></span>
 			</div>
+
 		</div>
 
-		<img src="assets/project/logo-1.png" class="imgpadding">
-			<p class="descacross">Client: Photo Pulse Productions</p>
-		<img src="assets/project/logo-3.png" class="imgpadding">
-		<img src="assets/project/logo-4.png" class="imgpadding">
+
+
 		<footer>
 			<p>Stay in touch:</p>
 			<ul>

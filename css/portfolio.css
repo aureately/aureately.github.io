@@ -132,28 +132,38 @@ a:hover {
 @-webkit-keyframes play {
   from {
     background-position: 0px; }
+
   to {
     background-position: -2430px; } }
+
 @-moz-keyframes play {
   from {
     background-position: 0px; }
+
   to {
     background-position: -2430px; } }
+
 @-ms-keyframes play {
   from {
     background-position: 0px; }
+
   to {
     background-position: -2430px; } }
+
 @-o-keyframes play {
   from {
     background-position: 0px; }
+
   to {
     background-position: -2430px; } }
+
 @keyframes play {
   from {
     background-position: 0px; }
+
   to {
     background-position: -2430px; } }
+
 .logotype {
   width: 120px;
   height: 40px;
@@ -499,7 +509,8 @@ h5 {
   margin: auto; }
 
 .followme {
-  text-align: center; }
+  text-align: center;
+  border-bottom: double #dac7ae; }
   .followme h5 {
     margin-bottom: 10px; }
   .followme ul {
@@ -507,6 +518,20 @@ h5 {
     margin: 0;
     padding: 0; }
     .followme ul img {
+      width: 40px; }
+
+.aboutthesite {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  .aboutthesite p {
+    font-size: 8pt; }
+  .aboutthesite ul {
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .aboutthesite ul img {
       width: 40px; }
 
 .borderright {
@@ -518,6 +543,7 @@ h5 {
   margin-top: 20px;
   padding-top: 20px; }
 
+/* Animation */
 /* Footer */
 footer {
   border-top: 1px solid #ddcfbc;
@@ -558,5 +584,3 @@ footer {
   margin: 0;
   opacity: 1;
   filter: alpha(opacity=100); }
-
-/*# sourceMappingURL=portfolio.css.map */

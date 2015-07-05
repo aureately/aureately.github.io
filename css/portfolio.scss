@@ -569,6 +569,26 @@ h5 {
   h5 {
     margin-bottom: 10px;
   }
+  border: {
+    bottom: double #dac7ae;
+  }
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    img {
+      width: 40px;
+    }
+  }
+}
+.aboutthesite {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  p {
+    font-size: 8pt;
+  }
   ul {
     display: block;
     margin: 0;
@@ -593,6 +613,9 @@ h5 {
     top: 20px;
   }
 }
+
+/* Animation */
+
 
 /* Footer */
 footer {
