@@ -688,7 +688,12 @@ footer {
   }
   display: none;
 }
-
+video {
+  display: block !important;
+}
+.toggle-mobile {
+  display: none !important;
+}
 .footericon {
   width: 30px;
   height: 30px;

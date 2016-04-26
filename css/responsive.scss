@@ -288,6 +288,12 @@ footer {
 	margin-right: 20px;
 	border: 0;
 }
+video {
+  display: none !important;
+}
+.toggle-mobile {
+  display: block !important;
+}
 }
 
 
@@ -514,6 +520,12 @@ h4 {
 .borderright {
 	margin-right: 20px;
 }
+video {
+  display: none !important;
+}
+.toggle-mobile {
+  display: block !important;
+}
 }
 
 @media only screen and (min-width: 781px) and (max-width: 960px) {
@@ -649,6 +661,12 @@ h2 {
 		right: auto;
 	}
 }
+video {
+  display: block !important;
+}
+.toggle-mobile {
+  display: none !important;
+}
 }
 
 
@@ -693,6 +711,12 @@ h2 {
 }
 .column {
 	width: 33%;
+}
+video {
+  display: block;
+}
+.toggle-mobile {
+  display: none;
 }
 }
 
@@ -784,5 +808,11 @@ h5 {
 	padding: {
 		top: 10px;
 	}
+}
+video {
+  display: block !important;
+}
+.toggle-mobile {
+  display: none !important;
 }
 }
