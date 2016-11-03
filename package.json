@@ -1,0 +1,21 @@
+{
+  "name": "aureately.github.io",
+  "version": "1.0.0",
+  "description": "coolthings ==========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain trishatobias.com"
+    }
+  }
+}
