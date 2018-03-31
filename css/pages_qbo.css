@@ -1,0 +1,98 @@
+
+/*** PROJECT QBO ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #000000;
+    width: 100%;
+}
+
+.featured_qbo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_qbo img {
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 6%;
+}
+
+.featured_qbo .project h3 {
+    border-bottom: 1px solid #2d7d92;
+    color: #4cc0df;
+}
+
+.featured_qbo .aboutproject p {
+    color: #737373;
+}
+
+.featured_qbo .details h4 {
+    color: #4cc0df
+}
+
+.featured_qbo .details_desc {
+    color: #737373;
+}
+
+.featured_qbo .details {
+    margin-bottom: 8%;
+}
+
+.details_desc {
+    margin-bottom: 10px;
+}
+
+.qbo_icons {
+    width: 100%;
+    margin-bottom: 5%;
+    clear: both;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.qbo_icons img {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}
+
+.qbo_stationery {
+    width: 100%;
+    margin-bottom: 5%;
+    clear: both;
+    padding-bottom: 5%;
+}
+
+.qbo_stationery img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+
+/*** BREAKPOINT 1 ***/
+
+.featured_qbo img {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+}

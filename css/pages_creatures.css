@@ -1,0 +1,79 @@
+
+/*** PROJECT CREATURES ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured_creatures {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    top: 0;
+    display: block;
+    z-index: 30;
+}
+
+.featured_creatures img {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.featured_creatures .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_creatures .aboutproject p {
+    color: #737373;
+}
+
+.featured_creatures .details h4 {
+    color: #b18f61;
+}
+
+.featured_creatures .details_desc {
+    color: #737373;    
+}
+
+video {
+    padding: 0;
+    position: relative;
+    top: -8%;
+    clear: both;
+    display: block !important;
+}
+img.togglemobile {
+    display: none !important;
+}
+
+@media only screen and (max-width: 766px) {
+
+video {
+    top: -3%;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+video {
+    display: none !important;
+}
+
+img.togglemobile {
+    display: block !important;
+    width: 100%;
+    margin: 0;
+}
+|

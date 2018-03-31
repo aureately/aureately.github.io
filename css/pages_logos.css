@@ -1,0 +1,97 @@
+
+/*** PROJECT LOGOS ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.aboutproject {
+    width: 100%;
+    color: #737373;
+}
+
+
+.featured_logos {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_logos img {
+    width: 100%;
+}
+
+.featured_logos .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_logos .aboutproject p {
+    color: #737373;
+}
+
+.featured_logos .details h4 {
+    color: #b18f61;
+}
+
+.featured_logos .details_desc {
+    color: #737373;    
+}
+
+.logos_1 {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+.logos_1 img {
+    width: 60%;
+    border: 1px solid #b18f61;
+    margin-bottom: 10px;
+}
+
+.logos_1 .aboutproject {
+    margin-bottom: 60px;
+}
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+/*** BREAKPOINT 1 ***/
+
+.featured_logos img {
+    width: 100%;
+}
+
+.logos_1 .aboutproject {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.logos_1 img {
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+.logos_1 .aboutproject {
+    text-align: left;
+}
+
+.logos_1 img {
+    width: 90%;
+}
+
+}

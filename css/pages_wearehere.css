@@ -1,0 +1,202 @@
+
+/*** PROJECT WEAREHERE***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured_wearehere {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_wearehere img {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+
+.featured_wearehere .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.aboutproject p {
+    color: #737373;
+}
+
+h4 {
+    color: #b18f61;
+}
+
+.wearehereseq {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.featured_wearehere .details_desc {
+    color: #737373;    
+}
+
+.wearehere_2 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.wearehere_3 img {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.wearehere_4 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.wearehere_4 .descriptions {
+    margin-bottom: 20px;
+}
+
+.weareherebanner {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wearehere_5 img {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.wearehere_5 .descriptions {
+    margin-bottom: 50px;
+}
+
+.wearehere_6 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+video {
+    display: block !important;
+}
+
+.togglemobile {
+    display: none !important;
+}
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+/*** BREAKPOINT 1 ***/
+
+.wearehereseq {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.descriptions {
+    width: 100%;
+    margin: 0;
+}
+.descriptions p, .descriptions h4 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.featured_wearehere .details {
+    margin-bottom: 5%;
+}
+
+}
+
+@media only screen and (max-width: 766px) {
+/*** BREAKPOINT 2 ***/ 
+
+.featured_wearehere img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.wearehere_2 img, .wearehere_3 img, .wearehere_4 img, .weareherebanner {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wearehere_6 img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+.featured_wearehere img {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+.wearehereseq {
+    width: 180%;
+    margin-left: -38%;
+}
+
+.descriptions p, .descriptions h4 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wearehere_5 .descriptions {
+    margin-bottom: 5px;
+}
+
+video {
+    display: none !important;
+}
+
+.togglemobile {
+    display: block !important;
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+

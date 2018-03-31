@@ -1,0 +1,96 @@
+
+/*** PROJECT CIVIL ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured_civil {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_civil img {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.featured_civil .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_civil .aboutproject p {
+    color: #737373;
+}
+
+.featured_civil .details h4 {
+    color: #b18f61;
+}
+
+.featured_civil .details_desc {
+    color: #737373;    
+}
+
+.civil_1 img {
+    width: 100%;
+}
+
+.civil_2 {
+    background: #e7e7e7;
+    margin-top: 50px;
+}
+.civil_2 img {
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 20px;
+
+}
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+/*** BREAKPOINT 1 ***/
+
+.featured_civil img {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+}
+
+
+@media only screen and (max-width: 766px) {
+
+.civil_1 img {
+    margin-top: 10%;
+}
+
+.civil_2 img {
+    width: 98%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 1px;
+}
+
+
+}

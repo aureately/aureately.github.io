@@ -1,0 +1,69 @@
+
+/*** PROJECT CURIOUS ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured_curious {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_curious img {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.featured_curious .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_curious .aboutproject p {
+    color: #737373;
+}
+
+.featured_curious .details h4 {
+    color: #b18f61;
+}
+
+.featured_curious .details_desc {
+    color: #737373;
+}
+
+.featured_curious .details {
+    margin-bottom: 8%;
+}
+
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+
+/*** BREAKPOINT 1 ***/
+
+.featured_curious img {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+}

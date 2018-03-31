@@ -1,0 +1,137 @@
+
+/*** PROJECT MAGAZINE ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured_magazine {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_magazine img {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 6%;
+}
+
+.featured_magazine .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_magazine .aboutproject p {
+    color: #737373;
+}
+
+.featured_magazine .details h4 {
+    color: #b18f61;
+}
+
+.featured_magazine .details_desc {
+    color: #737373;
+}
+
+.magazine_1 img {
+    width: 48%;
+    float: left;
+    margin: 0;
+    padding-left: 1%;
+}
+
+.magazine_2 {
+    background: #ffffff url('../assets/cfa_bg1_2x.png') no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    clear: both;
+}
+
+.magazine_2 .aboutproject, .magazine_3 .aboutproject, .magazine_4 .aboutproject {
+    color: #737373;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-bottom: 4%;
+    width: 60%;
+}
+
+.magazine_2 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+
+.magazine_3 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+
+.magazine_4 img {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    margin-bottom: 5%;
+}
+
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+
+/*** BREAKPOINT 1 ***/
+
+.featured_magazine img {
+    margin-top: -5px;
+}
+.magazine_2 img, .magazine_3 img, .magazine_4 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.magazine_2 .aboutproject, .magazine_3 .aboutproject, .magazine_4 .aboutproject {
+    width: 78%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.featured_magazine .details {
+    margin-bottom: 6%;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+.magazine_1 img {
+    width: 100%;
+    clear: both;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.featured_magazine img {
+    width: 150%;
+    margin-left: -30%;
+}
+
+}

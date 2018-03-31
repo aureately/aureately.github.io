@@ -1,0 +1,381 @@
+
+/*** PROJECT REVOLUTION VA ***/
+
+body {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #000000;
+}
+
+.featured_revva {
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    background: #000000; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle, #1f0505, #000000, #000000); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #1f0505, #000000, #000000); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #1f0505, #000000, #000000); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #1f0505, #000000, #000000); /* Standard syntax */
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#revva_logo {
+    width: 593px;
+    margin-top: 0;
+    margin-left: 24%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+
+}
+
+.featured_revva .aboutproject {
+    z-index: 100;
+}
+.featured_revva .project h3 {
+    border-bottom: 1px solid #510a0a;
+    color: #ffffff;
+}
+
+.featured_revva .aboutproject p {
+    color: #737373;
+}
+
+.featured_revva .details h4 {
+    color: #ffffff;
+}
+
+.featured_revva .details_desc {
+    color: #737373;    
+}
+
+.revva_1 {
+    width: 100%;
+    height: 1033px;
+    clear: both;
+    display: block;
+    background: #000000 url('../assets/revva_bg_pattern_2x.png') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: left;
+    z-index: 1;
+}
+
+.revva_1 img {
+    width: 500px;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.revva_2 {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    z-index: 29;
+    clear: both;
+    background: #000000;
+    display: block; 
+}
+
+.revva_2 h3 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.revva_2 p {
+    color: #737373;
+    margin: 0;
+    padding: 0;
+}
+
+.revva_2 .aboutproject {
+    margin: 0;
+    width: 30%;
+    padding: 0;
+    display: block;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+.revva_3 {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    background: #000000;
+    display: block;
+}
+
+.revva_3 h3 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: -50px;
+}
+
+.revva_3 p {
+    color: #737373;
+    margin: 0;
+    padding: 0;
+}
+
+.revva_3 .aboutproject {
+    margin: 0;
+    width: 18%;
+    padding: 0;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.revva_3 img {
+    width: 50%;
+    height: auto;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.revva_4 {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    display: block;
+    background: #000000;
+    display: block;
+}
+
+.revva_4 h3 {
+    color: #ffffff;
+    width: 60%;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    padding-top: 50px;
+}
+
+.revva_4 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+}
+
+.revva_5 {
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin-top: 0;
+    background: url('../assets/revva_bg_pattern2_1x.png') no-repeat,
+    linear-gradient(to bottom, #000000, #c31f21, #c31f21);
+    background-size: 100% auto;
+    padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0;
+    display: block;
+}
+
+.revva_5 .revva_bizcards {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    z-index: 300;
+    position: relative;
+}
+
+.revva_5 .revva_stationery {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    margin-top: -20%;
+}
+
+
+
+
+
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+/*** BREAKPOINT 1 ***/
+
+#revva_logo {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.featured_revva {
+    height: 1150px;
+}
+
+.revva_1 {
+    margin-top: -150px;
+}
+
+.revva_2 {
+    height: 200px;
+}
+
+.revva_2 .aboutproject {
+    width: 45%;
+}
+
+.revva_3 {
+    margin-top: -20%;
+}
+
+.revva_4 {
+    margin-top: -20%;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 766px) {
+/*** BREAKPOINT 2 ***/
+
+body {
+    background: #000000;
+}
+
+.revva_1 {
+    height: 600px;
+    margin: 0;
+}
+
+.revva_1 img {
+    width: 70%;
+    margin-top: -100px;
+    margin-left: 15%;
+    margin-right: auto;
+}
+.revva_2 {
+    height: 300px;
+    margin: 0;
+}
+
+.revva_2 .aboutproject {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.revva_3 {
+    height: 700px;
+}
+
+.revva_3 img {
+    width: 100%;
+}
+
+.revva_3 .aboutproject {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.revva_4 h3 {
+    width: 90%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.revva_4 img {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.revva_4 {
+    margin-top: -100px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+.featured_revva{
+    background-position: center -350px;
+}
+
+.revva_1 {
+    margin-top: -200px;
+    height: 300px;
+    background-position: bottom center;
+}
+
+.revva_1 img {
+    width: 90%;
+    margin-top: -100px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.revva_2 {
+    height: 300px;
+}
+
+.revva_2 .aboutproject {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.revva_3 {
+    margin: 0;
+    height: 450px;
+}
+
+.revva_3 img {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.revva_3 .aboutproject {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 4%;
+    margin-bottom: 0;
+}
+
+.revva_4 img, .revva_4 h3 {
+    width: 90%;
+    margin: auto;
+}
+
+.revva_4 {
+    height: 150px;
+}
+}
+
+
+

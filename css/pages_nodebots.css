@@ -1,0 +1,419 @@
+
+/*** PROJECT NODEBOTS ***/
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #222220;
+}
+
+.x {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: fixed;
+    z-index: 80;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.overlay1 .nbotslayout1 {
+    width: 37%;
+    height: auto;
+    z-index: 80;
+    margin-top: 2%;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: fixed;
+    z-index: 80;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.overlay2 .nbotslayout2 {
+    width: 37%;
+    height: auto;
+    z-index: 80;
+    margin-top: 2%;
+}
+
+/* Sections */
+
+.featured_nbots {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    background: #222220;
+    background-position: top center;
+    background-size: cover;
+    z-index: 30;
+}
+
+#nbots_logo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.featured_nbots .project h3 {
+    border-bottom: 1px solid #b18f61;
+    color: #b18f61;
+}
+
+.featured_nbots .aboutproject p {
+    color: #737373;
+}
+
+.featured_nbots .details h4 {
+    color: #b18f61;
+}
+
+.featured_nbots .details_desc {
+    color: #737373;    
+}
+
+.nbots_1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    background: #222220;
+    text-align: left;
+    z-index: 30;
+    transform: skewY(-6deg);
+}
+
+.nbots_1 .social {
+    width: 95%;
+    height: auto;
+    margin-top: -3%;
+    transform: skewY(6deg);
+    display: inline-block;
+}
+
+.nbots_2 {
+    width: 100%;
+    overflow: auto;
+    margin-top: -7%;
+    z-index: 20;
+    background: #fcda3e;
+    clear: both;
+}
+
+
+.nbots_2 .robot {
+    width: 48%;
+    float: left;
+    margin-top: 18%;
+    margin-left: 6%;
+    position: absolute;
+}
+
+.nbots_2 h3 {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    width: -50px;
+}
+
+.nbots_2 p {
+    color: #000000;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+.nbots_2 .aboutproject {
+    margin: 0;
+    width: 25%;
+    padding: 0;
+    display: block;
+    margin-left: 25%;
+    margin-top: 60%;
+    position: absolute;
+}
+
+.nbots_2 .detail {
+    width: 15%;
+    float: left;
+    margin-top: 60%;
+    margin-left: 6%;
+    margin-right: 0;
+    position: absolute;
+}
+
+.nbots_2 .poster {
+    width: 38%;
+    float: left;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 58%;
+}
+
+.nbots_2 .layout1 {
+    width: 19%;
+    float: left;
+    margin-top: 68%;
+    margin-left: 58%;
+    margin-right: 0%;
+}
+
+.nbots_2 .layout2 {
+    width: 19%;
+    float: left;
+    margin-top: 68%;  
+}
+
+.nbots_2 .zoomin {
+    width: 50px;
+    float: left;
+    margin-top: 67%;
+    position: absolute;
+    margin-left: 57%;
+    z-index: 30;
+}
+
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 1000px) {
+/*** BREAKPOINT 1 ***/
+
+.overlay1, .overlay2 {
+    overflow: auto;
+}
+
+.overlay1 .nbotslayout1 {
+    width: 55%;
+    height: auto;
+    z-index: 50;
+    margin-top: 6%;
+}
+
+.overlay2 .nbotslayout2 {
+    width: 55%;
+    height: auto;
+    z-index: 50;
+    margin-top: 6%;
+}
+
+#nbots_logo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.nbots_1 .social {
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+.nbots_2 .robot {
+    width: 70%;
+    float: left;
+    margin-top: 18%;
+    margin-left: 6%;
+    position: relative;
+}
+
+.nbots_2 .detail {
+    width: 15%;
+    float: left;
+    margin-top: 30%;
+    margin-left: 6%;
+    margin-right: 0;
+    position: relative;
+}
+
+.nbots_2 .aboutproject {
+    margin: 0;
+    width: 80%;
+    padding: 0;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    position: relative;
+    clear: both;
+}
+
+.nbots_2 p {
+    color: #000000;
+    margin-bottom: 3%;
+    padding: 0;
+}
+
+.nbots_2 .poster {
+    width: 65%;
+    float: left;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 8%;
+}
+
+.nbots_2 .layout1 {
+    width: 19%;
+    float: left;
+    margin-top: -85%;
+    margin-left: 72%;
+}
+
+.nbots_2 .layout2 {
+    width: 19%;
+    float: left;
+    margin-top: -60%;
+    margin-left: 72%;
+}
+
+.nbots_2 .zoomin {
+    display: none;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 766px) {
+/*** BREAKPOINT 2 ***/
+
+.overlay1, .overlay2 {
+    overflow: auto;
+}
+
+.overlay1 .nbotslayout1 {
+    width: 60%;
+    height: auto;
+    z-index: 50;
+    margin-top: 6%;
+}
+
+.overlay2 .nbotslayout2 {
+    width: 60%;
+    height: auto;
+    z-index: 50;
+    margin-top: 6%;
+}
+
+.nbots_2 .aboutproject {
+    margin: 0;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    display: block;
+}
+.nbots_2 .zoomin {
+    display: none;
+}
+
+.nbots_1 .social {
+    margin-top: 0%;
+}
+
+.featured_nbots {
+    max-height: 80%;
+}
+
+.nbots_2 .aboutproject {
+    margin: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 0;
+    display: block;
+}
+.nbots_2 .zoomin {
+    display: none;
+}
+=
+
+}
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+#nbots_logo {
+    width: 150%;
+    margin-left: -30%;
+}
+
+.featured_nbots .details {
+    margin-bottom: 5%;
+}
+
+.x {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+}
+
+.overlay1, .overlay2 {
+    overflow: auto;
+}
+
+.overlay1 .nbotslayout1 {
+    width: 80%;
+    height: auto;
+    z-index: 50;
+    margin-top: 12%;
+}
+
+.overlay2 .nbotslayout2 {
+    width: 80%;
+    height: auto;
+    z-index: 50;
+    margin-top: 12%;
+}
+
+.nbots_2 .aboutproject {
+    margin: 0;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    display: block;
+}
+.nbots_2 .zoomin {
+    display: none;
+}
+
+}
+
+
+
