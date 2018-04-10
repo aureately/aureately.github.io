@@ -1,0 +1,54 @@
+
+/*** PROJECT THE WRIGHT WEDDING ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #264467;
+    width: 100%;
+}
+
+.featured_mylinbyron {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+}
+
+.featured_mylinbyron img {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.featured_mylinbyron .project h3 {
+    border-bottom: 1px solid #437085;
+    color: #85afc3;
+}
+
+.featured_mylinbyron .aboutproject p {
+    color: #cecece;
+}
+
+.featured_mylinbyron .details h4 {
+    color: #85afc3;
+}
+
+.featured_mylinbyron .details_desc {
+    color: #cecece;
+}
+
+.featured_mylinbyron .details {
+    margin-bottom: 8%;
+}
+
+.invites img {
+    width: 100%;
+}
