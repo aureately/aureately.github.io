@@ -1,0 +1,166 @@
+
+/*** PROJECT SCREENBITES ***/
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #000000;
+    width: 100%;
+}
+
+.featured_screenbites {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 30;
+    clear: both;
+}
+
+.featured_screenbites img {
+    width: 100%;
+    margin: 0;
+}
+
+.featured_screenbites .project h3 {
+    border-bottom: 1px solid #6d5e13;
+    color: #ffd300;
+}
+
+.featured_screenbites .aboutproject p {
+    color: #737373;
+}
+
+.featured_screenbites .details h4 {
+    color: #ffd300;
+}
+
+.featured_screenbites .details_desc {
+    color: #737373;
+}
+
+.featured_screenbites .details {
+    margin-bottom: 8%;
+}
+
+.bumper {
+    width: 80%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 6%;
+}
+
+.social {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.screenbites_posts {
+    width: 32%;
+    display: inline-block;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    vertical-align: top;
+}
+
+.screenbites_posts video {
+    margin: 0;
+}
+
+.screenbites_posts img.post {
+    width: 100%;
+}
+
+.details_desc {
+    margin-bottom: 6px;
+}
+
+.category img {
+    width: 84.5%;
+    margin-left: 7.75%;
+    margin-right: 7.75%;
+    margin-bottom: 10%;
+    padding: 0;
+}
+
+img.quote {
+    width: 6%;
+    margin-top: 7%;
+    margin-right: 2%;
+    display: inline-block;
+    float: left;
+}
+
+.screenbites_posts div.aboutproject {
+    width: 76%;
+    margin-top: 1%;
+    display: inline-block;
+    float: none;
+    color: #737373;
+    font-style: italic;
+}
+
+.website {
+    width: 100%;
+    margin: 0;
+    float: none;
+}
+
+.togglemobile {
+    display: none !important;
+}
+
+/*** RESPONSIVE ***/
+
+
+@media only screen and (max-width: 766px) {
+/*** BREAKPOINT 2 ***/
+
+.bumper, .category img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.screenbites_posts {
+    width: 48.5%;
+}
+
+img.quote {
+    width: 20px;
+    display: inline-block;
+}
+
+.screenbites_posts div.aboutproject {
+    width: 80%;
+}
+
+.project {
+    margin-top: 5%;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+/*** BREAK POINT 3 ***/
+
+.screenbites_posts {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.website video {
+    display: none !important;
+}
+
+.togglemobile {
+    display: block !important;
+    width: 100%;
+}
+}
